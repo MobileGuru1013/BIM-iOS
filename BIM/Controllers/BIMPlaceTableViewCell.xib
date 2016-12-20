@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BIMPlaceTableViewCell" rowHeight="129" id="Bbh-OC-aIW" customClass="BIMPlaceTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="583" height="129"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Bbh-OC-aIW" id="Bkh-Po-Puh">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tAJ-Wi-gPc" userLabel="placeIV">
+                        <rect key="frame" x="0.0" y="0.0" width="583" height="129"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seperator-horizontal" translatesAutoresizingMaskIntoConstraints="NO" id="HHi-Qe-OrU">
+                        <rect key="frame" x="0.0" y="128" width="583" height="1"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottom-overlay-small" translatesAutoresizingMaskIntoConstraints="NO" id="hbQ-PF-a3R" userLabel="bottom-overlay-small">
+                        <rect key="frame" x="0.0" y="43" width="583" height="86"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="400" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zWX-cd-pY0">
+                        <rect key="frame" x="39" y="105" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="category-1" translatesAutoresizingMaskIntoConstraints="NO" id="g4U-08-qbp">
+                        <rect key="frame" x="12" y="97" width="20" height="20"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="HHi-Qe-OrU" secondAttribute="trailing" id="6kU-OL-ZXF"/>
+                    <constraint firstAttribute="trailing" secondItem="tAJ-Wi-gPc" secondAttribute="trailing" id="BMg-Yb-Fc6"/>
+                    <constraint firstAttribute="trailing" secondItem="hbQ-PF-a3R" secondAttribute="trailing" id="HSf-fe-VLf"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zWX-cd-pY0" secondAttribute="trailing" constant="39" id="HfJ-ve-igm"/>
+                    <constraint firstAttribute="bottom" secondItem="g4U-08-qbp" secondAttribute="bottom" constant="12" id="Sy4-1p-dO2"/>
+                    <constraint firstAttribute="bottom" secondItem="tAJ-Wi-gPc" secondAttribute="bottom" id="dlT-9R-RQN"/>
+                    <constraint firstItem="g4U-08-qbp" firstAttribute="leading" secondItem="Bkh-Po-Puh" secondAttribute="leading" constant="12" id="eB8-oy-Qc6"/>
+                    <constraint firstItem="hbQ-PF-a3R" firstAttribute="leading" secondItem="Bkh-Po-Puh" secondAttribute="leading" id="fUq-JI-caZ"/>
+                    <constraint firstAttribute="bottom" secondItem="zWX-cd-pY0" secondAttribute="bottom" constant="2.5" id="fzT-f5-4Mv"/>
+                    <constraint firstItem="tAJ-Wi-gPc" firstAttribute="leading" secondItem="Bkh-Po-Puh" secondAttribute="leading" id="jn9-iF-QiE"/>
+                    <constraint firstItem="zWX-cd-pY0" firstAttribute="leading" secondItem="g4U-08-qbp" secondAttribute="trailing" priority="750" constant="7" id="jrA-ZW-XEj"/>
+                    <constraint firstAttribute="bottom" secondItem="HHi-Qe-OrU" secondAttribute="bottom" id="p3p-SB-EE1"/>
+                    <constraint firstAttribute="bottom" secondItem="hbQ-PF-a3R" secondAttribute="bottom" id="t0j-vp-kpx"/>
+                    <constraint firstItem="HHi-Qe-OrU" firstAttribute="leading" secondItem="Bkh-Po-Puh" secondAttribute="leading" id="v0V-Iy-dBc"/>
+                    <constraint firstItem="tAJ-Wi-gPc" firstAttribute="top" secondItem="Bkh-Po-Puh" secondAttribute="top" id="z9g-wA-Dg6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bottomOverlay" destination="hbQ-PF-a3R" id="MxQ-sR-m0s"/>
+                <outlet property="categoryIV" destination="g4U-08-qbp" id="Og5-8j-vMU"/>
+                <outlet property="placeIV" destination="tAJ-Wi-gPc" id="IYo-2m-fRt"/>
+                <outlet property="placeLabel" destination="zWX-cd-pY0" id="lr1-UC-GCq"/>
+                <outlet property="placeLabelTrailing" destination="HfJ-ve-igm" id="fUq-kJ-nKA"/>
+            </connections>
+            <point key="canvasLocation" x="374.5" y="354.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="bottom-overlay-small" width="320" height="86"/>
+        <image name="category-1" width="20" height="20"/>
+        <image name="seperator-horizontal" width="620" height="1"/>
+    </resources>
+</document>

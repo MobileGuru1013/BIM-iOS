@@ -1,0 +1,104 @@
+/* 
+  File.strings
+  BIM
+
+  Created by Alexis Jacquelin on 22/10/14.
+  Copyright (c) 2014 OMTS. All rights reserved.
+*/
+
+//Login
+"tuto1" = "Explore les meilleurs spots autour de toi";
+"tuto2" = "Bim tes spots, crée ton Univers";
+"tuto3" = "Partage ton Univers avec tes amis";
+"login.facebook.btn.title" = "Se connecter avec Facebook";
+"login.facebook.description" = "Nous ne publierons jamais rien sans votre permission";
+"login.private.policy.title" = "Mentions Légales";
+"login.cgu.title" = "Conditions d'Utilisation";
+
+//Menu
+"menu.eat" = "Eat";
+"menu.drink" = "Drink";
+"menu.daylife" = "Daylife";
+"menu.nightlife" = "Nightlife";
+"menu.euro1" = "€";
+"menu.euro2" = "€€";
+"menu.euro3" = "€€€";
+"menu.euro4" = "€€€€";
+"menu.around.me" = "Autour de moi";
+"menu.somewhere.else" = "Ailleurs";
+"search.location.title" = "Trouver des Bims autour de...";
+"search.location.searchbar.placeholder" = "Recherche une adresse";
+"search.location.placeholder.empty" = "Recherche une adresse";
+"search.location.placeholder.not.found" = "Merci de renseigner une autre adresse";
+
+//Home
+"place.open" = "ouvert";
+"place.close" = "fermé";
+
+//Friend
+"friends.searchbar.placeholder" = "Trouve un Bimer";
+"friends.a.friend" = "Un ami";
+"friends.empty.placeholder" = "Invite tes amis sur Bim et accède à leur Univers.";
+
+//Places
+"places.searchbar.placeholder" = "Trouver un Bim";
+"places.empty.placeholder" = "Bim tes spots, crée ton Univers.";
+"places.placeholder.empty" = "Pas de lieu trouvé\nTap pour actualiser ou change tes filtres";
+"location.mode.empty" = "Merci de choisir un mode de localisation.";
+
+//Place
+"place.book.btn.title" = "Call";
+"place.share.btn.title" = "Share";
+"place.go.btn.title" = "Go";
+"monday" = "Lundi";
+"tuesday" = "Mardi";
+"wednesday" = "Mercredi";
+"thursday" = "Jeudi";
+"friday" = "Vendredi";
+"saturday" = "Samedi";
+"sunday" = "Dimanche";
+"week.formatted.to" = "%@ à %@";
+"open.full.day" = "24h/24";
+"place.share.on.facebook" = "Partager sur Facebook";
+"place.share.on.message" = "Partager par SMS";
+"place.share.on.mail" = "Partager par Mail";
+"cancel" = "Annuler";
+"mail.share.place.title" = "Une pépite qui devrait te plaire...";
+"mail.share.place.body" = "Hey regarde le lieu que j’ai découvert sur Bim® ! https://itunes.apple.com/us/app/bim/id927902886?ls=1&mt=8";
+"sms.share.place.body" = "Hey regarde le lieu que j’ai découvert sur Bim® ! https://itunes.apple.com/us/app/bim/id927902886?ls=1&mt=8";
+"facebook.share.place.description" = "Hey regarde le lieu que j’ai découvert sur Bim® ! https://itunes.apple.com/us/app/bim/id927902886?ls=1&mt=8";
+"alert.title.bim" = "Bim";
+"alert.title.bash" = "Bash";
+"alert.title.next" = "Next";
+"alert.description.bim" = "Vous aimez cet endroit? Bimez le faisant glisser à droite. Vous le retrouverez dans votre univers accessible sur la droite de cet écran.";
+"alert.description.bash" = "Pas intéressé par cet endroit? Bashez le faisant glisser à gauche. Nous ne vous le proposerons plus.";
+"alert.description.next" = "En cliquant sur Next vous reverrez cet endroit et pourrez décider plus tard de le Bimer ou Basher.";
+"alert.ok" = "Ok";
+"alert.cancel" = "Annuler";
+
+//Settings
+"settings.title" = "Réglages";
+"settings.feedback.title" = "Envoyer un Feedback";
+"settings.guru.title" = "Devenir Guru";
+"settings.disconnect.title" = "Déconnexion";
+"mail.become.guru.title" = "La Ville n'a plus de secrets pour vous, devenez Guru.";
+"mail.become.guru.description" = "Hello la Bim® Team,\n\nVoici les spots que je souhaite ajouter à Bim® :\n\nLe Top 5 de mes bims :\n\nMes Villes :\n\nBim® - My City, My Rules";
+"mail.feedback.title" = "Aidez-nous à vous donner le Meilleur";
+"mail.feedback.description" = "Bim c'est votre Univers, donnez nous votre avis !\n\nModèle Iphone et version d'iOS : %@\n\nCe que j'ai aimé :\n\nCe que j'aimerais faire/voir sur Bim :\n\nMerci pour votre contribution !\n\nLa Bim Team";
+
+//Generic
+"base.line" = "Lifestyle Guru";
+"error" = "Erreur, on en fait notre affaire.";
+"warning" = "Attention";
+"ok" = "Top";
+"error.generic" = "Petit problème technique, merci de réessayer.";
+"error.generic.code" = "Petit problème technique, merci de réessayer. #%ld";
+"error.sign.in" = "Cher Bimer, merci de te connecter.";
+"error.login.account" = "Compte Facebook non trouvé.";
+"error.login.password" = "Ton mot de passe Facebook a changé. Merci de le confirmer dans les réglages Facebook de ton iPhone.";
+"error.login.permissions" = "Pour te donner le meilleur, Bim a besoin de se connecter à ton compte Facebook. Merci de l'autoriser dans les réglages Facebook de ton iPhone.";
+"location.permission.denied" = "Pour te donner le meilleur, Bim a besoin d'accéder à ta géolocalisation. Merci de l'activer dans la section Bim des réglages de ton iPhone.";
+"error.internet.connexion" = "Connexion Internet requise.";
+"actionsheet.share.title" = "Partager";
+"langue" = "fr-FR";
+"reachability.no.network" = "Pas de connection internet !";

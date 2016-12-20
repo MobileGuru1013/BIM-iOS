@@ -1,0 +1,47 @@
+//
+//  BIMConfig.pch
+//  BIM
+//
+//  Created by Alexis Jacquelin on 21/10/14.
+//  Copyright (c) 2014 OMTS. All rights reserved.
+//
+
+#ifndef BIM_BIMPrefix_pch
+#define BIM_BIMPrefix_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import <MapKit/MapKit.h>
+#import <Mantle/Mantle.h>
+#import <SSKeychain/SSKeychain.h>
+#import "SKYGlobalDefines.h"
+#import "BIMConfig.h"
+#import "ReactiveCocoa.h"
+#import "RACEXTScope.h"
+#import "BIMAPIClient.h"
+#import "PureLayout.h"
+#import "UIImageView+WebCache.h"
+#import "ObjectiveSugar.h"
+#import "UIFont+AddOn.h"
+#import "UIColor+AddOn.h"
+#import "POP.h"
+#import "BIMButtonWithLoader.h"
+#import "SDiPhoneVersion.h"
+#import "BIMBottomButtonWithLoader.h"
+#import "BIMSearchBar.h"
+#import "MMPReactiveCoreLocation.h"
+#import "NSError+AddOn.h"
+#import "BOSImageResizeOperation.h"
+#import "UIImage+AddOn.h"
+#import "UIView+AddOn.h"
+#import "UIButton+AddOn.h"
+#import "SMCalloutView.h"
+#import "NSObject+Device.h"
+#import <MessageUI/MessageUI.h>
+#import "UIActionSheet+AddOn.h"
+#import "Mixpanel.h"
+#import "NSDate+Utilities.h"
+#import "NSURL+AddOn.h"
+
+#endif

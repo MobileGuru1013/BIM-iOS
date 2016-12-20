@@ -1,0 +1,62 @@
+PODS:
+  - BOSImageResizeOperation (0.1.0)
+  - Mantle (1.5.1):
+    - Mantle/extobjc
+  - Mantle/extobjc (1.5.1)
+  - MDCSwipeToChoose (0.2.1)
+  - Mixpanel (2.6.0):
+    - Mixpanel/MPCategoryHelpers
+  - Mixpanel/MPCategoryHelpers (2.6.0)
+  - MMPReactiveCoreLocation (0.4.1):
+    - ReactiveCocoa (~> 2.3)
+  - ObjectiveSugar (1.1.0)
+  - pop (1.0.7)
+  - PureLayout (2.0.1)
+  - ReactiveCocoa (2.3.1):
+    - ReactiveCocoa/UI
+  - ReactiveCocoa/Core (2.3.1):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3.1)
+  - ReactiveCocoa/UI (2.3.1):
+    - ReactiveCocoa/Core
+  - SDiPhoneVersion (1.0)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.7.1)
+  - SMCalloutView (2.0.3)
+  - SMPageControl (1.2)
+  - SSKeychain (1.2.2)
+
+DEPENDENCIES:
+  - BOSImageResizeOperation
+  - Mantle
+  - MDCSwipeToChoose
+  - Mixpanel
+  - MMPReactiveCoreLocation
+  - ObjectiveSugar
+  - pop
+  - PureLayout
+  - ReactiveCocoa
+  - SDiPhoneVersion
+  - SDWebImage
+  - SMCalloutView
+  - SMPageControl
+  - SSKeychain
+
+SPEC CHECKSUMS:
+  BOSImageResizeOperation: f62c2cecf8daabdd8cc40dd6405d736de16eb721
+  Mantle: d7c5ac734579ec751c58fecbf56189853056c58c
+  MDCSwipeToChoose: 54f7b1675eff182cdc46c582360c7fca4c766a67
+  Mixpanel: e919d14f07a34ee01f81f97e535b7a240af2f793
+  MMPReactiveCoreLocation: 4ee1b720e9f5d2394a0db98afd944bf8308aa99e
+  ObjectiveSugar: f48793f5902c77cfc02a4ce46d2e8ecddcad4dc2
+  pop: 2f14a1ea61339767af9e66741b418c831b3844df
+  PureLayout: 12eca5b6dc94f1a03fdf255d640604584ff1b55b
+  ReactiveCocoa: dca75777b9d18990c8714a3a6f2149f29b4d1462
+  SDiPhoneVersion: 3de9051241d932c7a8e9f5fa7d5ae8f6ead7bfcd
+  SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
+  SMCalloutView: f413edafcbead0d0a59066efa0708cdbca6dbfff
+  SMPageControl: 506b0c561d3ddbe2d5df28cb33acc8e4b1f93f19
+  SSKeychain: cc48bd3ad24fcd9125adb9e0d23dd50b8bbd08b9
+
+COCOAPODS: 0.34.2

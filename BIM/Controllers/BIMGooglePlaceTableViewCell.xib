@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BIMGooglePlaceTableViewCell" id="y9n-qN-bYy" customClass="BIMGooglePlaceTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="y9n-qN-bYy" id="9E5-pb-d0k">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Oai-w1-Hd6">
+                        <rect key="frame" x="30" y="11" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line-horizontal" translatesAutoresizingMaskIntoConstraints="NO" id="khy-rm-SnS">
+                        <rect key="frame" x="0.0" y="43" width="320" height="1"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="magnifying-icon" translatesAutoresizingMaskIntoConstraints="NO" id="1Qk-e6-TzD">
+                        <rect key="frame" x="10" y="17" width="10" height="10"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="khy-rm-SnS" secondAttribute="bottom" id="0RS-Ag-STA"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Oai-w1-Hd6" secondAttribute="trailing" constant="10" id="QcL-J8-yGH"/>
+                    <constraint firstAttribute="trailing" secondItem="khy-rm-SnS" secondAttribute="trailing" id="WiH-sA-xXL"/>
+                    <constraint firstItem="khy-rm-SnS" firstAttribute="leading" secondItem="9E5-pb-d0k" secondAttribute="leading" id="ZN9-tJ-eWH"/>
+                    <constraint firstAttribute="centerY" secondItem="1Qk-e6-TzD" secondAttribute="centerY" id="aTW-uP-z1B"/>
+                    <constraint firstItem="Oai-w1-Hd6" firstAttribute="leading" secondItem="9E5-pb-d0k" secondAttribute="leading" constant="30" id="d6g-Gd-Qoe"/>
+                    <constraint firstItem="1Qk-e6-TzD" firstAttribute="leading" secondItem="9E5-pb-d0k" secondAttribute="leading" constant="10" id="hCC-Ue-1Q3"/>
+                    <constraint firstAttribute="centerY" secondItem="Oai-w1-Hd6" secondAttribute="centerY" constant="1.25" id="jiP-3C-OK3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descriptionGooglePlaceLabel" destination="Oai-w1-Hd6" id="26E-3k-MFf"/>
+            </connections>
+            <point key="canvasLocation" x="373" y="255"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="line-horizontal" width="1" height="1"/>
+        <image name="magnifying-icon" width="10" height="10"/>
+    </resources>
+</document>

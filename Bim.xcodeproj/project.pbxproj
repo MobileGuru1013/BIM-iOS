@@ -1,0 +1,1765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		910ACEEC19F6490400453C6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACEEB19F6490400453C6D /* main.m */; };
+		910ACEEF19F6490400453C6D /* BIMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACEEE19F6490400453C6D /* BIMAppDelegate.m */; };
+		910ACEF719F6490400453C6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 910ACEF619F6490400453C6D /* Images.xcassets */; };
+		910ACF2319F64AB500453C6D /* BIMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF2019F64AB500453C6D /* BIMHomeViewController.m */; };
+		910ACF2419F64AB500453C6D /* BIMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF2219F64AB500453C6D /* BIMViewController.m */; };
+		910ACF2919F64C5100453C6D /* BIMCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF2819F64C5100453C6D /* BIMCategoriesViewController.m */; };
+		910ACF2C19F64C5D00453C6D /* BIMFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF2B19F64C5D00453C6D /* BIMFriendsViewController.m */; };
+		910ACF3019F64D7500453C6D /* BIMMainContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF2F19F64D7500453C6D /* BIMMainContainerViewController.m */; };
+		910ACFBD19F64E6700453C6D /* SKYBouncePresentAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF3919F64E6700453C6D /* SKYBouncePresentAnimationController.m */; };
+		910ACFBE19F64E6700453C6D /* SKYFlipAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF3B19F64E6700453C6D /* SKYFlipAnimationController.m */; };
+		910ACFBF19F64E6700453C6D /* SKYGrowAndDismissAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF3D19F64E6700453C6D /* SKYGrowAndDismissAnimationController.m */; };
+		910ACFC019F64E6700453C6D /* SKYShrinkAndPresentAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF3F19F64E6700453C6D /* SKYShrinkAndPresentAnimationController.m */; };
+		910ACFC119F64E6700453C6D /* SKYShrinkDismissAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF4119F64E6700453C6D /* SKYShrinkDismissAnimationController.m */; };
+		910ACFC219F64E6700453C6D /* SKYSwipeInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF4419F64E6700453C6D /* SKYSwipeInteractionController.m */; };
+		910ACFC319F64E6700453C6D /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910ACF4B19F64E6700453C6D /* FacebookSDK.framework */; };
+		910ACFC419F64E6800453C6D /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910ACF4C19F64E6700453C6D /* GoogleOpenSource.framework */; };
+		910ACFC519F64E6800453C6D /* GooglePlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 910ACF4D19F64E6700453C6D /* GooglePlus.bundle */; };
+		910ACFC619F64E6800453C6D /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910ACF4E19F64E6700453C6D /* GooglePlus.framework */; };
+		910ACFC719F64E6800453C6D /* AFNetworkActivityLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF5219F64E6700453C6D /* AFNetworkActivityLogger.m */; };
+		910ACFC819F64E6800453C6D /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF5519F64E6700453C6D /* AFHTTPRequestOperation.m */; };
+		910ACFC919F64E6800453C6D /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF5719F64E6700453C6D /* AFHTTPRequestOperationManager.m */; };
+		910ACFCA19F64E6800453C6D /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF5919F64E6700453C6D /* AFHTTPSessionManager.m */; };
+		910ACFCB19F64E6800453C6D /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF5C19F64E6700453C6D /* AFNetworkReachabilityManager.m */; };
+		910ACFCC19F64E6800453C6D /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF5E19F64E6700453C6D /* AFSecurityPolicy.m */; };
+		910ACFCD19F64E6800453C6D /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF6019F64E6700453C6D /* AFURLConnectionOperation.m */; };
+		910ACFCE19F64E6800453C6D /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF6219F64E6700453C6D /* AFURLRequestSerialization.m */; };
+		910ACFCF19F64E6800453C6D /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF6419F64E6700453C6D /* AFURLResponseSerialization.m */; };
+		910ACFD019F64E6800453C6D /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF6619F64E6700453C6D /* AFURLSessionManager.m */; };
+		910ACFD119F64E6800453C6D /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF6919F64E6700453C6D /* AFNetworkActivityIndicatorManager.m */; };
+		910ACFD219F64E6800453C6D /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF6B19F64E6700453C6D /* UIActivityIndicatorView+AFNetworking.m */; };
+		910ACFD319F64E6800453C6D /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF6D19F64E6700453C6D /* UIAlertView+AFNetworking.m */; };
+		910ACFD419F64E6800453C6D /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF6F19F64E6700453C6D /* UIButton+AFNetworking.m */; };
+		910ACFD519F64E6800453C6D /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF7119F64E6700453C6D /* UIImageView+AFNetworking.m */; };
+		910ACFD619F64E6800453C6D /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF7419F64E6700453C6D /* UIProgressView+AFNetworking.m */; };
+		910ACFD719F64E6800453C6D /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF7619F64E6700453C6D /* UIRefreshControl+AFNetworking.m */; };
+		910ACFD819F64E6800453C6D /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF7819F64E6700453C6D /* UIWebView+AFNetworking.m */; };
+		910ACFD919F64E6800453C6D /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF7B19F64E6700453C6D /* UIImage+ImageEffects.m */; };
+		910ACFDA19F64E6800453C6D /* MDMFetchedResultsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF8119F64E6700453C6D /* MDMFetchedResultsDataSource.m */; };
+		910ACFDB19F64E6800453C6D /* MDMFetchedResultsCollectionDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF8419F64E6700453C6D /* MDMFetchedResultsCollectionDataSource.m */; };
+		910ACFDC19F64E6800453C6D /* MDMFetchedResultsTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF8719F64E6700453C6D /* MDMFetchedResultsTableDataSource.m */; };
+		910ACFDD19F64E6800453C6D /* MDMPersistenceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF8A19F64E6700453C6D /* MDMPersistenceController.m */; };
+		910ACFDE19F64E6800453C6D /* NSManagedObject+MDMCoreDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF8D19F64E6700453C6D /* NSManagedObject+MDMCoreDataAdditions.m */; };
+		910ACFDF19F64E6800453C6D /* NSManagedObject+SKYGenericObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF9019F64E6700453C6D /* NSManagedObject+SKYGenericObject.m */; };
+		910ACFE019F64E6800453C6D /* SKYPersistenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF9219F64E6700453C6D /* SKYPersistenceManager.m */; };
+		910ACFE119F64E6800453C6D /* SKYAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF9519F64E6700453C6D /* SKYAPIClient.m */; };
+		910ACFE219F64E6800453C6D /* SKYGenericService.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF9719F64E6700453C6D /* SKYGenericService.m */; };
+		910ACFE319F64E6800453C6D /* SKYFacebookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF9A19F64E6700453C6D /* SKYFacebookManager.m */; };
+		910ACFE419F64E6800453C6D /* SKYGooglePlusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF9C19F64E6700453C6D /* SKYGooglePlusManager.m */; };
+		910ACFE519F64E6800453C6D /* NSDate+SKYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACF9F19F64E6700453C6D /* NSDate+SKYAdditions.m */; };
+		910ACFE619F64E6800453C6D /* NSDictionary+SKYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACFA119F64E6700453C6D /* NSDictionary+SKYAdditions.m */; };
+		910ACFE719F64E6800453C6D /* NSString+SKYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACFA319F64E6700453C6D /* NSString+SKYAdditions.m */; };
+		910ACFE819F64E6800453C6D /* SKYErrorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACFA519F64E6700453C6D /* SKYErrorHandler.m */; };
+		910ACFE919F64E6800453C6D /* SKYFadeSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACFA719F64E6700453C6D /* SKYFadeSegue.m */; };
+		910ACFEA19F64E6800453C6D /* SKYFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACFA919F64E6700453C6D /* SKYFileManager.m */; };
+		910ACFEB19F64E6800453C6D /* SKYLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACFAB19F64E6700453C6D /* SKYLocationManager.m */; };
+		910ACFEC19F64E6800453C6D /* SKYMaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACFAD19F64E6700453C6D /* SKYMaths.m */; };
+		910ACFED19F64E6800453C6D /* SKYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACFAF19F64E6700453C6D /* SKYTabBarController.m */; };
+		910ACFEE19F64E6800453C6D /* SKYTabBarSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACFB119F64E6700453C6D /* SKYTabBarSegue.m */; };
+		910ACFEF19F64E6800453C6D /* SKYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACFB319F64E6700453C6D /* SKYViewController.m */; };
+		910ACFF019F64E6800453C6D /* UIButton+SKYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACFB519F64E6700453C6D /* UIButton+SKYAdditions.m */; };
+		910ACFF119F64E6800453C6D /* UIImageView+SKYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACFB719F64E6700453C6D /* UIImageView+SKYAdditions.m */; };
+		910ACFF219F64E6800453C6D /* UIView+SKYAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACFB919F64E6700453C6D /* UIView+SKYAdditions.m */; };
+		910ACFF719F6516200453C6D /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910ACFF619F6516200453C6D /* AddressBook.framework */; };
+		910ACFFE19F660CD00453C6D /* BIMSliderNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 910ACFFD19F660CD00453C6D /* BIMSliderNavBar.m */; };
+		910AF1241A27710C0086200D /* BIMLabelWalkingDead.m in Sources */ = {isa = PBXBuildFile; fileRef = 910AF1231A27710C0086200D /* BIMLabelWalkingDead.m */; };
+		910AF12B1A2798040086200D /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 910AF1281A2798040086200D /* NSDate+Utilities.m */; };
+		910AF1321A27A3A40086200D /* NSURL+AddOn.m in Sources */ = {isa = PBXBuildFile; fileRef = 910AF1311A27A3A40086200D /* NSURL+AddOn.m */; };
+		9130353D1A014B4A008E14FA /* BIMFriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9130353C1A014B4A008E14FA /* BIMFriendTableViewCell.xib */; };
+		913035401A01C489008E14FA /* BIMPlacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9130353F1A01C489008E14FA /* BIMPlacesViewController.m */; };
+		913035441A021D3B008E14FA /* UIImage+AddOn.m in Sources */ = {isa = PBXBuildFile; fileRef = 913035431A021D3B008E14FA /* UIImage+AddOn.m */; };
+		913035471A02211E008E14FA /* BIMTintedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 913035461A02211E008E14FA /* BIMTintedImageView.m */; };
+		9130354A1A0229ED008E14FA /* UIView+AddOn.m in Sources */ = {isa = PBXBuildFile; fileRef = 913035491A0229ED008E14FA /* UIView+AddOn.m */; };
+		913035501A023F1A008E14FA /* BIMNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9130354F1A023F1A008E14FA /* BIMNavigationControllerDelegate.m */; };
+		913035551A023F83008E14FA /* BIMAnimatorPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 913035541A023F83008E14FA /* BIMAnimatorPush.m */; };
+		913035581A023F8E008E14FA /* BIMAnimatorPop.m in Sources */ = {isa = PBXBuildFile; fileRef = 913035571A023F8E008E14FA /* BIMAnimatorPop.m */; };
+		9130355E1A025921008E14FA /* BIMPlaceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9130355D1A025921008E14FA /* BIMPlaceTableViewCell.m */; };
+		913035601A025C80008E14FA /* BIMPlaceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9130355F1A025C80008E14FA /* BIMPlaceTableViewCell.xib */; };
+		913035631A027B01008E14FA /* UIButton+AddOn.m in Sources */ = {isa = PBXBuildFile; fileRef = 913035621A027B01008E14FA /* UIButton+AddOn.m */; };
+		913035661A02FCEA008E14FA /* BIMCategoriesItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 913035651A02FCEA008E14FA /* BIMCategoriesItem.m */; };
+		913035691A036CE7008E14FA /* BIMFriendsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 913035681A036CE7008E14FA /* BIMFriendsItem.m */; };
+		9130356D1A038414008E14FA /* BIMSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9130356C1A038414008E14FA /* BIMSettingsViewController.m */; };
+		913B28B719F6EC9900268160 /* BIMCategoriesSliderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 913B28B619F6EC9900268160 /* BIMCategoriesSliderItem.m */; };
+		913B28BA19F6ECA600268160 /* BIMHomeSliderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 913B28B919F6ECA600268160 /* BIMHomeSliderItem.m */; };
+		913B28BD19F6ECBA00268160 /* BIMFriendsSliderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 913B28BC19F6ECBA00268160 /* BIMFriendsSliderItem.m */; };
+		915D1B4A1A0101CA00B6F14E /* BIMRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 915D1B491A0101CA00B6F14E /* BIMRequest.m */; };
+		915D1B4E1A01114400B6F14E /* NSError+AddOn.m in Sources */ = {isa = PBXBuildFile; fileRef = 915D1B4D1A01114400B6F14E /* NSError+AddOn.m */; };
+		917116A219FE83A7007349B3 /* BIMSliderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 917116A119FE83A7007349B3 /* BIMSliderItem.m */; };
+		917116A519FE8C01007349B3 /* BIMCategoryButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 917116A419FE8C01007349B3 /* BIMCategoryButton.m */; };
+		917116A819FE8CC1007349B3 /* BIMEuroButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 917116A719FE8CC1007349B3 /* BIMEuroButton.m */; };
+		91794CBE1A30703C0096635D /* UIDevice+Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 91794CBC1A30703C0096635D /* UIDevice+Hardware.m */; };
+		91794CCB1A30CA3D0096635D /* MHFacebookImageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 91794CC11A30CA3D0096635D /* MHFacebookImageViewer.m */; };
+		9182F70719F8412B00640C8D /* BIMChoosePlaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9182F70619F8412B00640C8D /* BIMChoosePlaceView.m */; };
+		9182F70D19F8561E00640C8D /* BIMScheduleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9182F70C19F8561E00640C8D /* BIMScheduleView.m */; };
+		918A5C0819FA5B8D0008229A /* BIMActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 918A5C0519FA5B8D0008229A /* BIMActivityView.m */; };
+		918A5C0919FA5B8D0008229A /* BIMButtonWithLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 918A5C0719FA5B8D0008229A /* BIMButtonWithLoader.m */; };
+		919B364D19F9A5810061AE59 /* BIMLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 919B364C19F9A5810061AE59 /* BIMLoader.m */; };
+		919CAC2C1A079D0600DC14AB /* BIMMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 919CAC2B1A079D0600DC14AB /* BIMMapView.m */; };
+		919CAC2F1A07A42C00DC14AB /* MKMapView+RAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 919CAC2E1A07A42C00DC14AB /* MKMapView+RAC.m */; };
+		919E97381A2348B100E494CB /* BIMAPIClient+Places.m in Sources */ = {isa = PBXBuildFile; fileRef = 919E97371A2348B100E494CB /* BIMAPIClient+Places.m */; };
+		919E973B1A23584F00E494CB /* BIMAPIClient+User.m in Sources */ = {isa = PBXBuildFile; fileRef = 919E973A1A23584F00E494CB /* BIMAPIClient+User.m */; };
+		919E973E1A2374E000E494CB /* NSObject+Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 919E973D1A2374E000E494CB /* NSObject+Device.m */; };
+		919E97411A2479D500E494CB /* BIMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 919E97401A2479D500E494CB /* BIMCategory.m */; };
+		91A750EF1A084A4200017736 /* BIMHomeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A750EE1A084A4200017736 /* BIMHomeItem.m */; };
+		91A750F21A08DA1A00017736 /* BIMAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A750F11A08DA1A00017736 /* BIMAnnotation.m */; };
+		91A750F41A08E63100017736 /* omts.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 91A750F31A08E63100017736 /* omts.gpx */; };
+		91A750F71A08E6D900017736 /* BIMAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A750F61A08E6D900017736 /* BIMAnnotationView.m */; };
+		91A751001A08F79500017736 /* MKMapView+AddOn.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A750FF1A08F79500017736 /* MKMapView+AddOn.m */; };
+		91A751061A08F99D00017736 /* BIMCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A751051A08F99D00017736 /* BIMCalloutView.m */; };
+		91ADCB6F19F71113008575AE /* BIMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91ADCB6E19F71113008575AE /* BIMLoginViewController.m */; };
+		91ADCB7319F7113F008575AE /* BIMAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 91ADCB7219F7113F008575AE /* BIMAPIClient.m */; };
+		91ADCB8019F7BA48008575AE /* BIMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 91ADCB7F19F7BA48008575AE /* BIMUser.m */; };
+		91ADCB8319F7BA53008575AE /* BIMPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 91ADCB8219F7BA53008575AE /* BIMPlace.m */; };
+		91B016A61A17ABE600AC92C0 /* BIMHoursView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B016A51A17ABE600AC92C0 /* BIMHoursView.m */; };
+		91B016A91A17ADC600AC92C0 /* BIMHours.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B016A81A17ADC600AC92C0 /* BIMHours.m */; };
+		91B016AC1A17B55C00AC92C0 /* BIMOpen.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B016AB1A17B55C00AC92C0 /* BIMOpen.m */; };
+		91B016FF1A1B327000AC92C0 /* BIMAnimatorPlacesPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B016FE1A1B327000AC92C0 /* BIMAnimatorPlacesPush.m */; };
+		91CE04B219FB00C60077E4FA /* BIMSplashAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91CE04B119FB00C60077E4FA /* BIMSplashAnimatedView.m */; };
+		91D32A991A1E45F800E2285A /* AppDelegate+AddOn.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D32A981A1E45F800E2285A /* AppDelegate+AddOn.m */; };
+		91DC39EE19FF024600DD03FC /* BIMSearchLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DC39ED19FF024600DD03FC /* BIMSearchLocationViewController.m */; };
+		91DC39F219FF026C00DD03FC /* BIMBottomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DC39F119FF026C00DD03FC /* BIMBottomButton.m */; };
+		91DC39F519FF03DB00DD03FC /* BIMNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DC39F419FF03DB00DD03FC /* BIMNavigationBar.m */; };
+		91DC39F819FF070C00DD03FC /* BIMSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DC39F719FF070C00DD03FC /* BIMSearchBar.m */; };
+		91DC39FB19FF761B00DD03FC /* BIMGooglePlaceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DC39FA19FF761B00DD03FC /* BIMGooglePlaceTableViewCell.m */; };
+		91DC39FE19FF769600DD03FC /* BIMGooglePlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DC39FD19FF769600DD03FC /* BIMGooglePlace.m */; };
+		91DC3A0019FF793000DD03FC /* BIMGooglePlaceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91DC39FF19FF793000DD03FC /* BIMGooglePlaceTableViewCell.xib */; };
+		91DC3A0919FFA0BE00DD03FC /* UISearchDisplayController+RAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DC3A0819FFA0BE00DD03FC /* UISearchDisplayController+RAC.m */; };
+		91DC3A1119FFAD0C00DD03FC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DC3A1019FFAD0C00DD03FC /* MapKit.framework */; };
+		91DC3A1419FFF10A00DD03FC /* UISearchBar+RAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DC3A1319FFF10A00DD03FC /* UISearchBar+RAC.m */; };
+		91DC3A221A005C7300DD03FC /* BIMBottomButtonWithLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DC3A211A005C7300DD03FC /* BIMBottomButtonWithLoader.m */; };
+		91DC3A251A00C86900DD03FC /* BIMFriendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DC3A241A00C86900DD03FC /* BIMFriendTableViewCell.m */; };
+		91DC3A281A00CEF800DD03FC /* BIMSearchDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DC3A271A00CEF800DD03FC /* BIMSearchDisplayController.m */; };
+		91DC3A2D1A00F1B200DD03FC /* BIMAPIClient+Friends.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DC3A2C1A00F1B200DD03FC /* BIMAPIClient+Friends.m */; };
+		91DC3A301A00F7A800DD03FC /* BIMObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DC3A2F1A00F7A800DD03FC /* BIMObject.m */; };
+		91DC3A331A00FA3900DD03FC /* RACSignal+BIMClientAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DC3A321A00FA3900DD03FC /* RACSignal+BIMClientAdditions.m */; };
+		91DC3A361A00FAAB00DD03FC /* BIMResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DC3A351A00FAAB00DD03FC /* BIMResponse.m */; };
+		91EA024119F8DE69004D8D12 /* Avenir.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 91EA024019F8DE66004D8D12 /* Avenir.ttc */; };
+		91EA024219F8DE6C004D8D12 /* Avenir Next Condensed.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 91EA023E19F8DE66004D8D12 /* Avenir Next Condensed.ttc */; };
+		91EA024319F8DE6E004D8D12 /* Avenir Next.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 91EA023F19F8DE66004D8D12 /* Avenir Next.ttc */; };
+		91EA024719F8DEAD004D8D12 /* UIFont+AddOn.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EA024619F8DEAD004D8D12 /* UIFont+AddOn.m */; };
+		91EA024A19F8E050004D8D12 /* UIColor+AddOn.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EA024919F8E050004D8D12 /* UIColor+AddOn.m */; };
+		91EA024F19F8FC45004D8D12 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91EA024D19F8FC45004D8D12 /* Fabric.framework */; };
+		91EA025519F90ECF004D8D12 /* BIMInfluencerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EA025419F90ECF004D8D12 /* BIMInfluencerScrollView.m */; };
+		91EA025919F923E4004D8D12 /* BIMInfluencerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EA025819F923E4004D8D12 /* BIMInfluencerButton.m */; };
+		91EA025D19F935BE004D8D12 /* BIMPlaceInformations.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EA025C19F935BE004D8D12 /* BIMPlaceInformations.m */; };
+		91EA025F19F935CD004D8D12 /* BIMPlaceInformations.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91EA025E19F935CD004D8D12 /* BIMPlaceInformations.xib */; };
+		91EA026319F94E0E004D8D12 /* BIMDetailsPlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91EA026219F94E0E004D8D12 /* BIMDetailsPlaceViewController.m */; };
+		91F362C11A0A1039006D35D7 /* BIMAnimatorDetailsPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F362C01A0A1039006D35D7 /* BIMAnimatorDetailsPush.m */; };
+		91F362C41A0A1040006D35D7 /* BIMAnimatorDetailsPop.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F362C31A0A1040006D35D7 /* BIMAnimatorDetailsPop.m */; };
+		91F362C71A0A1FB1006D35D7 /* BIMTagsPlaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F362C61A0A1FB1006D35D7 /* BIMTagsPlaceView.m */; };
+		91F362CA1A0A1FBC006D35D7 /* BIMSchedulePlaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F362C91A0A1FBC006D35D7 /* BIMSchedulePlaceView.m */; };
+		91F362CD1A0A5DB0006D35D7 /* BIMButtonWithCenteredTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F362CC1A0A5DB0006D35D7 /* BIMButtonWithCenteredTitle.m */; };
+		91F97F321A268DEA002224C7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91F97F341A268DEA002224C7 /* Localizable.strings */; };
+		91F97F391A268E59002224C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91F97F371A268E59002224C7 /* Main.storyboard */; };
+		91F97F3C1A269A36002224C7 /* UIActionSheet+AddOn.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F97F3B1A269A36002224C7 /* UIActionSheet+AddOn.m */; };
+		9CB800181A35F60A00B3EEBA /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB800171A35F60A00B3EEBA /* Crashlytics.framework */; };
+		A66E0D225A8D0E001BB004F3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7430F0A214CE2FC3B5A35364 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CDEE74922F6AA695271B62F /* Pods.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.appstore.xcconfig; path = "Pods/Target Support Files/Pods/Pods.appstore.xcconfig"; sourceTree = "<group>"; };
+		7430F0A214CE2FC3B5A35364 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		910ACEE619F6490400453C6D /* Bim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		910ACEEA19F6490400453C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		910ACEEB19F6490400453C6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		910ACEED19F6490400453C6D /* BIMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIMAppDelegate.h; sourceTree = "<group>"; };
+		910ACEEE19F6490400453C6D /* BIMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIMAppDelegate.m; sourceTree = "<group>"; };
+		910ACEF619F6490400453C6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		910ACF1F19F64AB500453C6D /* BIMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMHomeViewController.h; sourceTree = "<group>"; };
+		910ACF2019F64AB500453C6D /* BIMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMHomeViewController.m; sourceTree = "<group>"; };
+		910ACF2119F64AB500453C6D /* BIMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMViewController.h; sourceTree = "<group>"; };
+		910ACF2219F64AB500453C6D /* BIMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMViewController.m; sourceTree = "<group>"; };
+		910ACF2719F64C5100453C6D /* BIMCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMCategoriesViewController.h; sourceTree = "<group>"; };
+		910ACF2819F64C5100453C6D /* BIMCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMCategoriesViewController.m; sourceTree = "<group>"; };
+		910ACF2A19F64C5D00453C6D /* BIMFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMFriendsViewController.h; sourceTree = "<group>"; };
+		910ACF2B19F64C5D00453C6D /* BIMFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMFriendsViewController.m; sourceTree = "<group>"; };
+		910ACF2E19F64D7500453C6D /* BIMMainContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMMainContainerViewController.h; sourceTree = "<group>"; };
+		910ACF2F19F64D7500453C6D /* BIMMainContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMMainContainerViewController.m; sourceTree = "<group>"; };
+		910ACF3819F64E6700453C6D /* SKYBouncePresentAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYBouncePresentAnimationController.h; sourceTree = "<group>"; };
+		910ACF3919F64E6700453C6D /* SKYBouncePresentAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKYBouncePresentAnimationController.m; sourceTree = "<group>"; };
+		910ACF3A19F64E6700453C6D /* SKYFlipAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYFlipAnimationController.h; sourceTree = "<group>"; };
+		910ACF3B19F64E6700453C6D /* SKYFlipAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKYFlipAnimationController.m; sourceTree = "<group>"; };
+		910ACF3C19F64E6700453C6D /* SKYGrowAndDismissAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYGrowAndDismissAnimationController.h; sourceTree = "<group>"; };
+		910ACF3D19F64E6700453C6D /* SKYGrowAndDismissAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKYGrowAndDismissAnimationController.m; sourceTree = "<group>"; };
+		910ACF3E19F64E6700453C6D /* SKYShrinkAndPresentAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYShrinkAndPresentAnimationController.h; sourceTree = "<group>"; };
+		910ACF3F19F64E6700453C6D /* SKYShrinkAndPresentAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKYShrinkAndPresentAnimationController.m; sourceTree = "<group>"; };
+		910ACF4019F64E6700453C6D /* SKYShrinkDismissAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYShrinkDismissAnimationController.h; sourceTree = "<group>"; };
+		910ACF4119F64E6700453C6D /* SKYShrinkDismissAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKYShrinkDismissAnimationController.m; sourceTree = "<group>"; };
+		910ACF4319F64E6700453C6D /* SKYSwipeInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYSwipeInteractionController.h; sourceTree = "<group>"; };
+		910ACF4419F64E6700453C6D /* SKYSwipeInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKYSwipeInteractionController.m; sourceTree = "<group>"; };
+		910ACF4619F64E6700453C6D /* SKYGlobalDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYGlobalDefines.h; sourceTree = "<group>"; };
+		910ACF4719F64E6700453C6D /* SKYMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYMacros.h; sourceTree = "<group>"; };
+		910ACF4819F64E6700453C6D /* SKYServicesDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYServicesDefines.h; sourceTree = "<group>"; };
+		910ACF4919F64E6700453C6D /* SKYSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYSingleton.h; sourceTree = "<group>"; };
+		910ACF4B19F64E6700453C6D /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		910ACF4C19F64E6700453C6D /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleOpenSource.framework; sourceTree = "<group>"; };
+		910ACF4D19F64E6700453C6D /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GooglePlus.bundle; sourceTree = "<group>"; };
+		910ACF4E19F64E6700453C6D /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlus.framework; sourceTree = "<group>"; };
+		910ACF5119F64E6700453C6D /* AFNetworkActivityLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityLogger.h; sourceTree = "<group>"; };
+		910ACF5219F64E6700453C6D /* AFNetworkActivityLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityLogger.m; sourceTree = "<group>"; };
+		910ACF5419F64E6700453C6D /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		910ACF5519F64E6700453C6D /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		910ACF5619F64E6700453C6D /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		910ACF5719F64E6700453C6D /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		910ACF5819F64E6700453C6D /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		910ACF5919F64E6700453C6D /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		910ACF5A19F64E6700453C6D /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		910ACF5B19F64E6700453C6D /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		910ACF5C19F64E6700453C6D /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		910ACF5D19F64E6700453C6D /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		910ACF5E19F64E6700453C6D /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		910ACF5F19F64E6700453C6D /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		910ACF6019F64E6700453C6D /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		910ACF6119F64E6700453C6D /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		910ACF6219F64E6700453C6D /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		910ACF6319F64E6700453C6D /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		910ACF6419F64E6700453C6D /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		910ACF6519F64E6700453C6D /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		910ACF6619F64E6700453C6D /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		910ACF6819F64E6700453C6D /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		910ACF6919F64E6700453C6D /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		910ACF6A19F64E6700453C6D /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		910ACF6B19F64E6700453C6D /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		910ACF6C19F64E6700453C6D /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		910ACF6D19F64E6700453C6D /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		910ACF6E19F64E6700453C6D /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		910ACF6F19F64E6700453C6D /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		910ACF7019F64E6700453C6D /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		910ACF7119F64E6700453C6D /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		910ACF7219F64E6700453C6D /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		910ACF7319F64E6700453C6D /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		910ACF7419F64E6700453C6D /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		910ACF7519F64E6700453C6D /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		910ACF7619F64E6700453C6D /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		910ACF7719F64E6700453C6D /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		910ACF7819F64E6700453C6D /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		910ACF7A19F64E6700453C6D /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		910ACF7B19F64E6700453C6D /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		910ACF7D19F64E6700453C6D /* MDMCoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMCoreData.h; sourceTree = "<group>"; };
+		910ACF7F19F64E6700453C6D /* MDMCoreDataMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMCoreDataMacros.h; sourceTree = "<group>"; };
+		910ACF8019F64E6700453C6D /* MDMFetchedResultsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMFetchedResultsDataSource.h; sourceTree = "<group>"; };
+		910ACF8119F64E6700453C6D /* MDMFetchedResultsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMFetchedResultsDataSource.m; sourceTree = "<group>"; };
+		910ACF8319F64E6700453C6D /* MDMFetchedResultsCollectionDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMFetchedResultsCollectionDataSource.h; sourceTree = "<group>"; };
+		910ACF8419F64E6700453C6D /* MDMFetchedResultsCollectionDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMFetchedResultsCollectionDataSource.m; sourceTree = "<group>"; };
+		910ACF8619F64E6700453C6D /* MDMFetchedResultsTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMFetchedResultsTableDataSource.h; sourceTree = "<group>"; };
+		910ACF8719F64E6700453C6D /* MDMFetchedResultsTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMFetchedResultsTableDataSource.m; sourceTree = "<group>"; };
+		910ACF8919F64E6700453C6D /* MDMPersistenceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMPersistenceController.h; sourceTree = "<group>"; };
+		910ACF8A19F64E6700453C6D /* MDMPersistenceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMPersistenceController.m; sourceTree = "<group>"; };
+		910ACF8C19F64E6700453C6D /* NSManagedObject+MDMCoreDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+MDMCoreDataAdditions.h"; sourceTree = "<group>"; };
+		910ACF8D19F64E6700453C6D /* NSManagedObject+MDMCoreDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+MDMCoreDataAdditions.m"; sourceTree = "<group>"; };
+		910ACF8F19F64E6700453C6D /* NSManagedObject+SKYGenericObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+SKYGenericObject.h"; sourceTree = "<group>"; };
+		910ACF9019F64E6700453C6D /* NSManagedObject+SKYGenericObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+SKYGenericObject.m"; sourceTree = "<group>"; };
+		910ACF9119F64E6700453C6D /* SKYPersistenceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYPersistenceManager.h; sourceTree = "<group>"; };
+		910ACF9219F64E6700453C6D /* SKYPersistenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKYPersistenceManager.m; sourceTree = "<group>"; };
+		910ACF9419F64E6700453C6D /* SKYAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYAPIClient.h; sourceTree = "<group>"; };
+		910ACF9519F64E6700453C6D /* SKYAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKYAPIClient.m; sourceTree = "<group>"; };
+		910ACF9619F64E6700453C6D /* SKYGenericService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYGenericService.h; sourceTree = "<group>"; };
+		910ACF9719F64E6700453C6D /* SKYGenericService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKYGenericService.m; sourceTree = "<group>"; };
+		910ACF9919F64E6700453C6D /* SKYFacebookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYFacebookManager.h; sourceTree = "<group>"; };
+		910ACF9A19F64E6700453C6D /* SKYFacebookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKYFacebookManager.m; sourceTree = "<group>"; };
+		910ACF9B19F64E6700453C6D /* SKYGooglePlusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYGooglePlusManager.h; sourceTree = "<group>"; };
+		910ACF9C19F64E6700453C6D /* SKYGooglePlusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKYGooglePlusManager.m; sourceTree = "<group>"; };
+		910ACF9E19F64E6700453C6D /* NSDate+SKYAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+SKYAdditions.h"; sourceTree = "<group>"; };
+		910ACF9F19F64E6700453C6D /* NSDate+SKYAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+SKYAdditions.m"; sourceTree = "<group>"; };
+		910ACFA019F64E6700453C6D /* NSDictionary+SKYAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+SKYAdditions.h"; sourceTree = "<group>"; };
+		910ACFA119F64E6700453C6D /* NSDictionary+SKYAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SKYAdditions.m"; sourceTree = "<group>"; };
+		910ACFA219F64E6700453C6D /* NSString+SKYAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SKYAdditions.h"; sourceTree = "<group>"; };
+		910ACFA319F64E6700453C6D /* NSString+SKYAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SKYAdditions.m"; sourceTree = "<group>"; };
+		910ACFA419F64E6700453C6D /* SKYErrorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYErrorHandler.h; sourceTree = "<group>"; };
+		910ACFA519F64E6700453C6D /* SKYErrorHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKYErrorHandler.m; sourceTree = "<group>"; };
+		910ACFA619F64E6700453C6D /* SKYFadeSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYFadeSegue.h; sourceTree = "<group>"; };
+		910ACFA719F64E6700453C6D /* SKYFadeSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKYFadeSegue.m; sourceTree = "<group>"; };
+		910ACFA819F64E6700453C6D /* SKYFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYFileManager.h; sourceTree = "<group>"; };
+		910ACFA919F64E6700453C6D /* SKYFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKYFileManager.m; sourceTree = "<group>"; };
+		910ACFAA19F64E6700453C6D /* SKYLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYLocationManager.h; sourceTree = "<group>"; };
+		910ACFAB19F64E6700453C6D /* SKYLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKYLocationManager.m; sourceTree = "<group>"; };
+		910ACFAC19F64E6700453C6D /* SKYMaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYMaths.h; sourceTree = "<group>"; };
+		910ACFAD19F64E6700453C6D /* SKYMaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKYMaths.m; sourceTree = "<group>"; };
+		910ACFAE19F64E6700453C6D /* SKYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYTabBarController.h; sourceTree = "<group>"; };
+		910ACFAF19F64E6700453C6D /* SKYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKYTabBarController.m; sourceTree = "<group>"; };
+		910ACFB019F64E6700453C6D /* SKYTabBarSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYTabBarSegue.h; sourceTree = "<group>"; };
+		910ACFB119F64E6700453C6D /* SKYTabBarSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKYTabBarSegue.m; sourceTree = "<group>"; };
+		910ACFB219F64E6700453C6D /* SKYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYViewController.h; sourceTree = "<group>"; };
+		910ACFB319F64E6700453C6D /* SKYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKYViewController.m; sourceTree = "<group>"; };
+		910ACFB419F64E6700453C6D /* UIButton+SKYAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SKYAdditions.h"; sourceTree = "<group>"; };
+		910ACFB519F64E6700453C6D /* UIButton+SKYAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SKYAdditions.m"; sourceTree = "<group>"; };
+		910ACFB619F64E6700453C6D /* UIImageView+SKYAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SKYAdditions.h"; sourceTree = "<group>"; };
+		910ACFB719F64E6700453C6D /* UIImageView+SKYAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SKYAdditions.m"; sourceTree = "<group>"; };
+		910ACFB819F64E6700453C6D /* UIView+SKYAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SKYAdditions.h"; sourceTree = "<group>"; };
+		910ACFB919F64E6700453C6D /* UIView+SKYAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SKYAdditions.m"; sourceTree = "<group>"; };
+		910ACFF419F64EA100453C6D /* Bim-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bim-Prefix.pch"; sourceTree = "<group>"; };
+		910ACFF519F6500B00453C6D /* BIMConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIMConfig.h; sourceTree = "<group>"; };
+		910ACFF619F6516200453C6D /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		910ACFFC19F660CD00453C6D /* BIMSliderNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMSliderNavBar.h; sourceTree = "<group>"; };
+		910ACFFD19F660CD00453C6D /* BIMSliderNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMSliderNavBar.m; sourceTree = "<group>"; };
+		910AF1221A27710C0086200D /* BIMLabelWalkingDead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMLabelWalkingDead.h; sourceTree = "<group>"; };
+		910AF1231A27710C0086200D /* BIMLabelWalkingDead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMLabelWalkingDead.m; sourceTree = "<group>"; };
+		910AF1271A2798040086200D /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
+		910AF1281A2798040086200D /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
+		910AF1301A27A3A40086200D /* NSURL+AddOn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+AddOn.h"; sourceTree = "<group>"; };
+		910AF1311A27A3A40086200D /* NSURL+AddOn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+AddOn.m"; sourceTree = "<group>"; };
+		9130353C1A014B4A008E14FA /* BIMFriendTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIMFriendTableViewCell.xib; sourceTree = "<group>"; };
+		9130353E1A01C489008E14FA /* BIMPlacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMPlacesViewController.h; sourceTree = "<group>"; };
+		9130353F1A01C489008E14FA /* BIMPlacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMPlacesViewController.m; sourceTree = "<group>"; };
+		913035421A021D3B008E14FA /* UIImage+AddOn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AddOn.h"; sourceTree = "<group>"; };
+		913035431A021D3B008E14FA /* UIImage+AddOn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AddOn.m"; sourceTree = "<group>"; };
+		913035451A02211E008E14FA /* BIMTintedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMTintedImageView.h; sourceTree = "<group>"; };
+		913035461A02211E008E14FA /* BIMTintedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMTintedImageView.m; sourceTree = "<group>"; };
+		913035481A0229ED008E14FA /* UIView+AddOn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AddOn.h"; sourceTree = "<group>"; };
+		913035491A0229ED008E14FA /* UIView+AddOn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AddOn.m"; sourceTree = "<group>"; };
+		9130354E1A023F1A008E14FA /* BIMNavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMNavigationControllerDelegate.h; sourceTree = "<group>"; };
+		9130354F1A023F1A008E14FA /* BIMNavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMNavigationControllerDelegate.m; sourceTree = "<group>"; };
+		913035531A023F83008E14FA /* BIMAnimatorPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMAnimatorPush.h; sourceTree = "<group>"; };
+		913035541A023F83008E14FA /* BIMAnimatorPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMAnimatorPush.m; sourceTree = "<group>"; };
+		913035561A023F8E008E14FA /* BIMAnimatorPop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMAnimatorPop.h; sourceTree = "<group>"; };
+		913035571A023F8E008E14FA /* BIMAnimatorPop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMAnimatorPop.m; sourceTree = "<group>"; };
+		9130355C1A025921008E14FA /* BIMPlaceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMPlaceTableViewCell.h; sourceTree = "<group>"; };
+		9130355D1A025921008E14FA /* BIMPlaceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMPlaceTableViewCell.m; sourceTree = "<group>"; };
+		9130355F1A025C80008E14FA /* BIMPlaceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIMPlaceTableViewCell.xib; sourceTree = "<group>"; };
+		913035611A027B01008E14FA /* UIButton+AddOn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AddOn.h"; sourceTree = "<group>"; };
+		913035621A027B01008E14FA /* UIButton+AddOn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AddOn.m"; sourceTree = "<group>"; };
+		913035641A02FCEA008E14FA /* BIMCategoriesItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMCategoriesItem.h; sourceTree = "<group>"; };
+		913035651A02FCEA008E14FA /* BIMCategoriesItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMCategoriesItem.m; sourceTree = "<group>"; };
+		913035671A036CE7008E14FA /* BIMFriendsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMFriendsItem.h; sourceTree = "<group>"; };
+		913035681A036CE7008E14FA /* BIMFriendsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMFriendsItem.m; sourceTree = "<group>"; };
+		9130356B1A038414008E14FA /* BIMSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMSettingsViewController.h; sourceTree = "<group>"; };
+		9130356C1A038414008E14FA /* BIMSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMSettingsViewController.m; sourceTree = "<group>"; };
+		913B28B519F6EC9900268160 /* BIMCategoriesSliderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMCategoriesSliderItem.h; sourceTree = "<group>"; };
+		913B28B619F6EC9900268160 /* BIMCategoriesSliderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMCategoriesSliderItem.m; sourceTree = "<group>"; };
+		913B28B819F6ECA600268160 /* BIMHomeSliderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMHomeSliderItem.h; sourceTree = "<group>"; };
+		913B28B919F6ECA600268160 /* BIMHomeSliderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMHomeSliderItem.m; sourceTree = "<group>"; };
+		913B28BB19F6ECBA00268160 /* BIMFriendsSliderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMFriendsSliderItem.h; sourceTree = "<group>"; };
+		913B28BC19F6ECBA00268160 /* BIMFriendsSliderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMFriendsSliderItem.m; sourceTree = "<group>"; };
+		915D1B481A0101CA00B6F14E /* BIMRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMRequest.h; sourceTree = "<group>"; };
+		915D1B491A0101CA00B6F14E /* BIMRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMRequest.m; sourceTree = "<group>"; };
+		915D1B4C1A01114400B6F14E /* NSError+AddOn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+AddOn.h"; sourceTree = "<group>"; };
+		915D1B4D1A01114400B6F14E /* NSError+AddOn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+AddOn.m"; sourceTree = "<group>"; };
+		917116A019FE83A7007349B3 /* BIMSliderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMSliderItem.h; sourceTree = "<group>"; };
+		917116A119FE83A7007349B3 /* BIMSliderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMSliderItem.m; sourceTree = "<group>"; };
+		917116A319FE8C01007349B3 /* BIMCategoryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMCategoryButton.h; sourceTree = "<group>"; };
+		917116A419FE8C01007349B3 /* BIMCategoryButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMCategoryButton.m; sourceTree = "<group>"; };
+		917116A619FE8CC1007349B3 /* BIMEuroButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMEuroButton.h; sourceTree = "<group>"; };
+		917116A719FE8CC1007349B3 /* BIMEuroButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMEuroButton.m; sourceTree = "<group>"; };
+		91794CBB1A30703C0096635D /* UIDevice+Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Hardware.h"; sourceTree = "<group>"; };
+		91794CBC1A30703C0096635D /* UIDevice+Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Hardware.m"; sourceTree = "<group>"; };
+		91794CC01A30CA3D0096635D /* MHFacebookImageViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHFacebookImageViewer.h; sourceTree = "<group>"; };
+		91794CC11A30CA3D0096635D /* MHFacebookImageViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHFacebookImageViewer.m; sourceTree = "<group>"; };
+		9182F70519F8412B00640C8D /* BIMChoosePlaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMChoosePlaceView.h; sourceTree = "<group>"; };
+		9182F70619F8412B00640C8D /* BIMChoosePlaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMChoosePlaceView.m; sourceTree = "<group>"; };
+		9182F70B19F8561E00640C8D /* BIMScheduleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMScheduleView.h; sourceTree = "<group>"; };
+		9182F70C19F8561E00640C8D /* BIMScheduleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMScheduleView.m; sourceTree = "<group>"; };
+		918A5C0419FA5B8D0008229A /* BIMActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMActivityView.h; sourceTree = "<group>"; };
+		918A5C0519FA5B8D0008229A /* BIMActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMActivityView.m; sourceTree = "<group>"; };
+		918A5C0619FA5B8D0008229A /* BIMButtonWithLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMButtonWithLoader.h; sourceTree = "<group>"; };
+		918A5C0719FA5B8D0008229A /* BIMButtonWithLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMButtonWithLoader.m; sourceTree = "<group>"; };
+		919B364B19F9A5810061AE59 /* BIMLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMLoader.h; sourceTree = "<group>"; };
+		919B364C19F9A5810061AE59 /* BIMLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMLoader.m; sourceTree = "<group>"; };
+		919CAC2A1A079D0600DC14AB /* BIMMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMMapView.h; sourceTree = "<group>"; };
+		919CAC2B1A079D0600DC14AB /* BIMMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMMapView.m; sourceTree = "<group>"; };
+		919CAC2D1A07A42C00DC14AB /* MKMapView+RAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+RAC.h"; sourceTree = "<group>"; };
+		919CAC2E1A07A42C00DC14AB /* MKMapView+RAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+RAC.m"; sourceTree = "<group>"; };
+		919E97361A2348B100E494CB /* BIMAPIClient+Places.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BIMAPIClient+Places.h"; sourceTree = "<group>"; };
+		919E97371A2348B100E494CB /* BIMAPIClient+Places.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BIMAPIClient+Places.m"; sourceTree = "<group>"; };
+		919E97391A23584F00E494CB /* BIMAPIClient+User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BIMAPIClient+User.h"; sourceTree = "<group>"; };
+		919E973A1A23584F00E494CB /* BIMAPIClient+User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BIMAPIClient+User.m"; sourceTree = "<group>"; };
+		919E973C1A2374E000E494CB /* NSObject+Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Device.h"; sourceTree = "<group>"; };
+		919E973D1A2374E000E494CB /* NSObject+Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Device.m"; sourceTree = "<group>"; };
+		919E973F1A2479D500E494CB /* BIMCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMCategory.h; sourceTree = "<group>"; };
+		919E97401A2479D500E494CB /* BIMCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMCategory.m; sourceTree = "<group>"; };
+		91A750ED1A084A4200017736 /* BIMHomeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMHomeItem.h; sourceTree = "<group>"; };
+		91A750EE1A084A4200017736 /* BIMHomeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMHomeItem.m; sourceTree = "<group>"; };
+		91A750F01A08DA1A00017736 /* BIMAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMAnnotation.h; sourceTree = "<group>"; };
+		91A750F11A08DA1A00017736 /* BIMAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMAnnotation.m; sourceTree = "<group>"; };
+		91A750F31A08E63100017736 /* omts.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = omts.gpx; path = ../../omts.gpx; sourceTree = "<group>"; };
+		91A750F51A08E6D900017736 /* BIMAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIMAnnotationView.h; path = BIM/BIMAnnotationView.h; sourceTree = SOURCE_ROOT; };
+		91A750F61A08E6D900017736 /* BIMAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIMAnnotationView.m; path = BIM/BIMAnnotationView.m; sourceTree = SOURCE_ROOT; };
+		91A750FE1A08F79500017736 /* MKMapView+AddOn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+AddOn.h"; sourceTree = "<group>"; };
+		91A750FF1A08F79500017736 /* MKMapView+AddOn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+AddOn.m"; sourceTree = "<group>"; };
+		91A751041A08F99D00017736 /* BIMCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMCalloutView.h; sourceTree = "<group>"; };
+		91A751051A08F99D00017736 /* BIMCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMCalloutView.m; sourceTree = "<group>"; };
+		91ADCB6D19F71113008575AE /* BIMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMLoginViewController.h; sourceTree = "<group>"; };
+		91ADCB6E19F71113008575AE /* BIMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMLoginViewController.m; sourceTree = "<group>"; };
+		91ADCB7119F7113F008575AE /* BIMAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMAPIClient.h; sourceTree = "<group>"; };
+		91ADCB7219F7113F008575AE /* BIMAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMAPIClient.m; sourceTree = "<group>"; };
+		91ADCB7E19F7BA48008575AE /* BIMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMUser.h; sourceTree = "<group>"; };
+		91ADCB7F19F7BA48008575AE /* BIMUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMUser.m; sourceTree = "<group>"; };
+		91ADCB8119F7BA53008575AE /* BIMPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMPlace.h; sourceTree = "<group>"; };
+		91ADCB8219F7BA53008575AE /* BIMPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMPlace.m; sourceTree = "<group>"; };
+		91B016A41A17ABE600AC92C0 /* BIMHoursView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMHoursView.h; sourceTree = "<group>"; };
+		91B016A51A17ABE600AC92C0 /* BIMHoursView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMHoursView.m; sourceTree = "<group>"; };
+		91B016A71A17ADC600AC92C0 /* BIMHours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMHours.h; sourceTree = "<group>"; };
+		91B016A81A17ADC600AC92C0 /* BIMHours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMHours.m; sourceTree = "<group>"; };
+		91B016AA1A17B55C00AC92C0 /* BIMOpen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMOpen.h; sourceTree = "<group>"; };
+		91B016AB1A17B55C00AC92C0 /* BIMOpen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMOpen.m; sourceTree = "<group>"; };
+		91B016FD1A1B327000AC92C0 /* BIMAnimatorPlacesPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMAnimatorPlacesPush.h; sourceTree = "<group>"; };
+		91B016FE1A1B327000AC92C0 /* BIMAnimatorPlacesPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMAnimatorPlacesPush.m; sourceTree = "<group>"; };
+		91CE04B019FB00C60077E4FA /* BIMSplashAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMSplashAnimatedView.h; sourceTree = "<group>"; };
+		91CE04B119FB00C60077E4FA /* BIMSplashAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMSplashAnimatedView.m; sourceTree = "<group>"; };
+		91D32A971A1E45F800E2285A /* AppDelegate+AddOn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+AddOn.h"; path = "../AppDelegate+AddOn.h"; sourceTree = "<group>"; };
+		91D32A981A1E45F800E2285A /* AppDelegate+AddOn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+AddOn.m"; path = "../AppDelegate+AddOn.m"; sourceTree = "<group>"; };
+		91DC39EC19FF024600DD03FC /* BIMSearchLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMSearchLocationViewController.h; sourceTree = "<group>"; };
+		91DC39ED19FF024600DD03FC /* BIMSearchLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMSearchLocationViewController.m; sourceTree = "<group>"; };
+		91DC39F019FF026C00DD03FC /* BIMBottomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMBottomButton.h; sourceTree = "<group>"; };
+		91DC39F119FF026C00DD03FC /* BIMBottomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMBottomButton.m; sourceTree = "<group>"; };
+		91DC39F319FF03DB00DD03FC /* BIMNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMNavigationBar.h; sourceTree = "<group>"; };
+		91DC39F419FF03DB00DD03FC /* BIMNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMNavigationBar.m; sourceTree = "<group>"; };
+		91DC39F619FF070C00DD03FC /* BIMSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMSearchBar.h; sourceTree = "<group>"; };
+		91DC39F719FF070C00DD03FC /* BIMSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMSearchBar.m; sourceTree = "<group>"; };
+		91DC39F919FF761B00DD03FC /* BIMGooglePlaceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMGooglePlaceTableViewCell.h; sourceTree = "<group>"; };
+		91DC39FA19FF761B00DD03FC /* BIMGooglePlaceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMGooglePlaceTableViewCell.m; sourceTree = "<group>"; };
+		91DC39FC19FF769600DD03FC /* BIMGooglePlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMGooglePlace.h; sourceTree = "<group>"; };
+		91DC39FD19FF769600DD03FC /* BIMGooglePlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMGooglePlace.m; sourceTree = "<group>"; };
+		91DC39FF19FF793000DD03FC /* BIMGooglePlaceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIMGooglePlaceTableViewCell.xib; sourceTree = "<group>"; };
+		91DC3A0719FFA0BE00DD03FC /* UISearchDisplayController+RAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchDisplayController+RAC.h"; sourceTree = "<group>"; };
+		91DC3A0819FFA0BE00DD03FC /* UISearchDisplayController+RAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchDisplayController+RAC.m"; sourceTree = "<group>"; };
+		91DC3A1019FFAD0C00DD03FC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		91DC3A1219FFF10A00DD03FC /* UISearchBar+RAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+RAC.h"; sourceTree = "<group>"; };
+		91DC3A1319FFF10A00DD03FC /* UISearchBar+RAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+RAC.m"; sourceTree = "<group>"; };
+		91DC3A201A005C7300DD03FC /* BIMBottomButtonWithLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMBottomButtonWithLoader.h; sourceTree = "<group>"; };
+		91DC3A211A005C7300DD03FC /* BIMBottomButtonWithLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMBottomButtonWithLoader.m; sourceTree = "<group>"; };
+		91DC3A231A00C86900DD03FC /* BIMFriendTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMFriendTableViewCell.h; sourceTree = "<group>"; };
+		91DC3A241A00C86900DD03FC /* BIMFriendTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMFriendTableViewCell.m; sourceTree = "<group>"; };
+		91DC3A261A00CEF800DD03FC /* BIMSearchDisplayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMSearchDisplayController.h; sourceTree = "<group>"; };
+		91DC3A271A00CEF800DD03FC /* BIMSearchDisplayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMSearchDisplayController.m; sourceTree = "<group>"; };
+		91DC3A2B1A00F1B200DD03FC /* BIMAPIClient+Friends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BIMAPIClient+Friends.h"; sourceTree = "<group>"; };
+		91DC3A2C1A00F1B200DD03FC /* BIMAPIClient+Friends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BIMAPIClient+Friends.m"; sourceTree = "<group>"; };
+		91DC3A2E1A00F7A800DD03FC /* BIMObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMObject.h; sourceTree = "<group>"; };
+		91DC3A2F1A00F7A800DD03FC /* BIMObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMObject.m; sourceTree = "<group>"; };
+		91DC3A311A00FA3900DD03FC /* RACSignal+BIMClientAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RACSignal+BIMClientAdditions.h"; sourceTree = "<group>"; };
+		91DC3A321A00FA3900DD03FC /* RACSignal+BIMClientAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RACSignal+BIMClientAdditions.m"; sourceTree = "<group>"; };
+		91DC3A341A00FAAB00DD03FC /* BIMResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMResponse.h; sourceTree = "<group>"; };
+		91DC3A351A00FAAB00DD03FC /* BIMResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMResponse.m; sourceTree = "<group>"; };
+		91EA023E19F8DE66004D8D12 /* Avenir Next Condensed.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir Next Condensed.ttc"; sourceTree = "<group>"; };
+		91EA023F19F8DE66004D8D12 /* Avenir Next.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avenir Next.ttc"; sourceTree = "<group>"; };
+		91EA024019F8DE66004D8D12 /* Avenir.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Avenir.ttc; sourceTree = "<group>"; };
+		91EA024519F8DEAD004D8D12 /* UIFont+AddOn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+AddOn.h"; sourceTree = "<group>"; };
+		91EA024619F8DEAD004D8D12 /* UIFont+AddOn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+AddOn.m"; sourceTree = "<group>"; };
+		91EA024819F8E050004D8D12 /* UIColor+AddOn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AddOn.h"; sourceTree = "<group>"; };
+		91EA024919F8E050004D8D12 /* UIColor+AddOn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AddOn.m"; sourceTree = "<group>"; };
+		91EA024C19F8FC45004D8D12 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		91EA024D19F8FC45004D8D12 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		91EA025319F90ECF004D8D12 /* BIMInfluencerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMInfluencerScrollView.h; sourceTree = "<group>"; };
+		91EA025419F90ECF004D8D12 /* BIMInfluencerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMInfluencerScrollView.m; sourceTree = "<group>"; };
+		91EA025719F923E4004D8D12 /* BIMInfluencerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMInfluencerButton.h; sourceTree = "<group>"; };
+		91EA025819F923E4004D8D12 /* BIMInfluencerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMInfluencerButton.m; sourceTree = "<group>"; };
+		91EA025B19F935BE004D8D12 /* BIMPlaceInformations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMPlaceInformations.h; sourceTree = "<group>"; };
+		91EA025C19F935BE004D8D12 /* BIMPlaceInformations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMPlaceInformations.m; sourceTree = "<group>"; };
+		91EA025E19F935CD004D8D12 /* BIMPlaceInformations.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIMPlaceInformations.xib; sourceTree = "<group>"; };
+		91EA026119F94E0E004D8D12 /* BIMDetailsPlaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMDetailsPlaceViewController.h; sourceTree = "<group>"; };
+		91EA026219F94E0E004D8D12 /* BIMDetailsPlaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMDetailsPlaceViewController.m; sourceTree = "<group>"; };
+		91F362BF1A0A1039006D35D7 /* BIMAnimatorDetailsPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMAnimatorDetailsPush.h; sourceTree = "<group>"; };
+		91F362C01A0A1039006D35D7 /* BIMAnimatorDetailsPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMAnimatorDetailsPush.m; sourceTree = "<group>"; };
+		91F362C21A0A1040006D35D7 /* BIMAnimatorDetailsPop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMAnimatorDetailsPop.h; sourceTree = "<group>"; };
+		91F362C31A0A1040006D35D7 /* BIMAnimatorDetailsPop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMAnimatorDetailsPop.m; sourceTree = "<group>"; };
+		91F362C51A0A1FB1006D35D7 /* BIMTagsPlaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMTagsPlaceView.h; sourceTree = "<group>"; };
+		91F362C61A0A1FB1006D35D7 /* BIMTagsPlaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMTagsPlaceView.m; sourceTree = "<group>"; };
+		91F362C81A0A1FBC006D35D7 /* BIMSchedulePlaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMSchedulePlaceView.h; sourceTree = "<group>"; };
+		91F362C91A0A1FBC006D35D7 /* BIMSchedulePlaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMSchedulePlaceView.m; sourceTree = "<group>"; };
+		91F362CB1A0A5DB0006D35D7 /* BIMButtonWithCenteredTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIMButtonWithCenteredTitle.h; sourceTree = "<group>"; };
+		91F362CC1A0A5DB0006D35D7 /* BIMButtonWithCenteredTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIMButtonWithCenteredTitle.m; sourceTree = "<group>"; };
+		91F97F351A268DF6002224C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		91F97F361A268E18002224C7 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		91F97F381A268E59002224C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91F97F3A1A269A36002224C7 /* UIActionSheet+AddOn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+AddOn.h"; sourceTree = "<group>"; };
+		91F97F3B1A269A36002224C7 /* UIActionSheet+AddOn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+AddOn.m"; sourceTree = "<group>"; };
+		957EEBBFF46D499B3F2DC5FA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9CB800171A35F60A00B3EEBA /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		A1501CF1B850E315BCE06F6F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		910ACEE319F6490400453C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DC3A1119FFAD0C00DD03FC /* MapKit.framework in Frameworks */,
+				91EA024F19F8FC45004D8D12 /* Fabric.framework in Frameworks */,
+				9CB800181A35F60A00B3EEBA /* Crashlytics.framework in Frameworks */,
+				910ACFF719F6516200453C6D /* AddressBook.framework in Frameworks */,
+				A66E0D225A8D0E001BB004F3 /* libPods.a in Frameworks */,
+				910ACFC619F64E6800453C6D /* GooglePlus.framework in Frameworks */,
+				910ACFC419F64E6800453C6D /* GoogleOpenSource.framework in Frameworks */,
+				910ACFC319F64E6700453C6D /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70D4FA10670124FA5F3C9E0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				957EEBBFF46D499B3F2DC5FA /* Pods.debug.xcconfig */,
+				A1501CF1B850E315BCE06F6F /* Pods.release.xcconfig */,
+				3CDEE74922F6AA695271B62F /* Pods.appstore.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		751E722CF619601C2BA0C36B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CB800171A35F60A00B3EEBA /* Crashlytics.framework */,
+				91DC3A1019FFAD0C00DD03FC /* MapKit.framework */,
+				91EA024C19F8FC45004D8D12 /* Crashlytics.framework */,
+				91EA024D19F8FC45004D8D12 /* Fabric.framework */,
+				910ACFF619F6516200453C6D /* AddressBook.framework */,
+				7430F0A214CE2FC3B5A35364 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		910ACEDD19F6490400453C6D = {
+			isa = PBXGroup;
+			children = (
+				910ACEE819F6490400453C6D /* BIM */,
+				910ACEE719F6490400453C6D /* Products */,
+				70D4FA10670124FA5F3C9E0D /* Pods */,
+				751E722CF619601C2BA0C36B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		910ACEE719F6490400453C6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				910ACEE619F6490400453C6D /* Bim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		910ACEE819F6490400453C6D /* BIM */ = {
+			isa = PBXGroup;
+			children = (
+				910ACEED19F6490400453C6D /* BIMAppDelegate.h */,
+				910ACEEE19F6490400453C6D /* BIMAppDelegate.m */,
+				910ACEF619F6490400453C6D /* Images.xcassets */,
+				91F97F371A268E59002224C7 /* Main.storyboard */,
+				910ACF1E19F64AB500453C6D /* Controllers */,
+				91ADCB7019F71131008575AE /* Service */,
+				910ACF1219F64AB000453C6D /* Models */,
+				910ACF1319F64AB000453C6D /* Ressources */,
+				910ACF1419F64AB000453C6D /* Utils */,
+				910ACF3119F64E4800453C6D /* Libs */,
+				910ACEE919F6490400453C6D /* Supporting Files */,
+			);
+			path = BIM;
+			sourceTree = "<group>";
+		};
+		910ACEE919F6490400453C6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				910ACEEA19F6490400453C6D /* Info.plist */,
+				910ACEEB19F6490400453C6D /* main.m */,
+				910ACFF419F64EA100453C6D /* Bim-Prefix.pch */,
+				910ACFF519F6500B00453C6D /* BIMConfig.h */,
+				91F97F341A268DEA002224C7 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		910ACF1219F64AB000453C6D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				91DC3A2E1A00F7A800DD03FC /* BIMObject.h */,
+				91DC3A2F1A00F7A800DD03FC /* BIMObject.m */,
+				91ADCB7E19F7BA48008575AE /* BIMUser.h */,
+				91ADCB7F19F7BA48008575AE /* BIMUser.m */,
+				91ADCB8119F7BA53008575AE /* BIMPlace.h */,
+				91ADCB8219F7BA53008575AE /* BIMPlace.m */,
+				919E973F1A2479D500E494CB /* BIMCategory.h */,
+				919E97401A2479D500E494CB /* BIMCategory.m */,
+				91B016A71A17ADC600AC92C0 /* BIMHours.h */,
+				91B016A81A17ADC600AC92C0 /* BIMHours.m */,
+				91B016AA1A17B55C00AC92C0 /* BIMOpen.h */,
+				91B016AB1A17B55C00AC92C0 /* BIMOpen.m */,
+				91DC39FC19FF769600DD03FC /* BIMGooglePlace.h */,
+				91DC39FD19FF769600DD03FC /* BIMGooglePlace.m */,
+				91DC3A341A00FAAB00DD03FC /* BIMResponse.h */,
+				91DC3A351A00FAAB00DD03FC /* BIMResponse.m */,
+				915D1B481A0101CA00B6F14E /* BIMRequest.h */,
+				915D1B491A0101CA00B6F14E /* BIMRequest.m */,
+				91A750F01A08DA1A00017736 /* BIMAnnotation.h */,
+				91A750F11A08DA1A00017736 /* BIMAnnotation.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		910ACF1319F64AB000453C6D /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				91A750F31A08E63100017736 /* omts.gpx */,
+				91EA024419F8DE73004D8D12 /* Fonts */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		910ACF1419F64AB000453C6D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				910ACFFB19F660BC00453C6D /* UI */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		910ACF1E19F64AB500453C6D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF2119F64AB500453C6D /* BIMViewController.h */,
+				910ACF2219F64AB500453C6D /* BIMViewController.m */,
+				910ACF2E19F64D7500453C6D /* BIMMainContainerViewController.h */,
+				910ACF2F19F64D7500453C6D /* BIMMainContainerViewController.m */,
+				917116A019FE83A7007349B3 /* BIMSliderItem.h */,
+				917116A119FE83A7007349B3 /* BIMSliderItem.m */,
+				91EA026019F94DFB004D8D12 /* Place */,
+				91ADCB6C19F71101008575AE /* Connexion */,
+				910ACF2619F64C3A00453C6D /* Categories */,
+				910ACF2519F64C3000453C6D /* Home */,
+				910ACF2D19F64C6D00453C6D /* Friends */,
+				913035411A01C490008E14FA /* Places */,
+				9130356A1A038402008E14FA /* Settings */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		910ACF2519F64C3000453C6D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF1F19F64AB500453C6D /* BIMHomeViewController.h */,
+				910ACF2019F64AB500453C6D /* BIMHomeViewController.m */,
+				9182F70519F8412B00640C8D /* BIMChoosePlaceView.h */,
+				9182F70619F8412B00640C8D /* BIMChoosePlaceView.m */,
+				9182F70B19F8561E00640C8D /* BIMScheduleView.h */,
+				9182F70C19F8561E00640C8D /* BIMScheduleView.m */,
+				913B28B819F6ECA600268160 /* BIMHomeSliderItem.h */,
+				913B28B919F6ECA600268160 /* BIMHomeSliderItem.m */,
+				91A750ED1A084A4200017736 /* BIMHomeItem.h */,
+				91A750EE1A084A4200017736 /* BIMHomeItem.m */,
+				91EA025A19F935AF004D8D12 /* Informations */,
+				91EA025619F91216004D8D12 /* InfluencerScrollView */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		910ACF2619F64C3A00453C6D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF2719F64C5100453C6D /* BIMCategoriesViewController.h */,
+				910ACF2819F64C5100453C6D /* BIMCategoriesViewController.m */,
+				913B28B519F6EC9900268160 /* BIMCategoriesSliderItem.h */,
+				913B28B619F6EC9900268160 /* BIMCategoriesSliderItem.m */,
+				913035641A02FCEA008E14FA /* BIMCategoriesItem.h */,
+				913035651A02FCEA008E14FA /* BIMCategoriesItem.m */,
+				91DC39EC19FF024600DD03FC /* BIMSearchLocationViewController.h */,
+				91DC39ED19FF024600DD03FC /* BIMSearchLocationViewController.m */,
+				91DC39F919FF761B00DD03FC /* BIMGooglePlaceTableViewCell.h */,
+				91DC39FA19FF761B00DD03FC /* BIMGooglePlaceTableViewCell.m */,
+				91DC39FF19FF793000DD03FC /* BIMGooglePlaceTableViewCell.xib */,
+				91DC39EF19FF024C00DD03FC /* UIButtons */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		910ACF2D19F64C6D00453C6D /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF2A19F64C5D00453C6D /* BIMFriendsViewController.h */,
+				910ACF2B19F64C5D00453C6D /* BIMFriendsViewController.m */,
+				913B28BB19F6ECBA00268160 /* BIMFriendsSliderItem.h */,
+				913B28BC19F6ECBA00268160 /* BIMFriendsSliderItem.m */,
+				913035671A036CE7008E14FA /* BIMFriendsItem.h */,
+				913035681A036CE7008E14FA /* BIMFriendsItem.m */,
+				91DC3A231A00C86900DD03FC /* BIMFriendTableViewCell.h */,
+				91DC3A241A00C86900DD03FC /* BIMFriendTableViewCell.m */,
+				9130353C1A014B4A008E14FA /* BIMFriendTableViewCell.xib */,
+			);
+			name = Friends;
+			sourceTree = "<group>";
+		};
+		910ACF3119F64E4800453C6D /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				91794CBF1A30CA3D0096635D /* MHFBImageViewController */,
+				91794CB91A30703C0096635D /* UIDevice-Hardware */,
+				910AF1251A2798040086200D /* NSDate */,
+				910ACF3219F64E6700453C6D /* Skynet-Core */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		910ACF3219F64E6700453C6D /* Skynet-Core */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF3619F64E6700453C6D /* Animations */,
+				910ACF4519F64E6700453C6D /* Defines */,
+				910ACF4A19F64E6700453C6D /* Framework */,
+				910ACF4F19F64E6700453C6D /* Import */,
+				910ACF8E19F64E6700453C6D /* Persistence */,
+				910ACF9319F64E6700453C6D /* Services */,
+				910ACF9819F64E6700453C6D /* Social */,
+				910ACF9D19F64E6700453C6D /* Utils */,
+			);
+			name = "Skynet-Core";
+			path = "BIM/Skynet-Core";
+			sourceTree = SOURCE_ROOT;
+		};
+		910ACF3619F64E6700453C6D /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF3719F64E6700453C6D /* AnimationControllers */,
+				910ACF4219F64E6700453C6D /* InteractionControllers */,
+			);
+			name = Animations;
+			path = Skynet/Animations;
+			sourceTree = "<group>";
+		};
+		910ACF3719F64E6700453C6D /* AnimationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF3819F64E6700453C6D /* SKYBouncePresentAnimationController.h */,
+				910ACF3919F64E6700453C6D /* SKYBouncePresentAnimationController.m */,
+				910ACF3A19F64E6700453C6D /* SKYFlipAnimationController.h */,
+				910ACF3B19F64E6700453C6D /* SKYFlipAnimationController.m */,
+				910ACF3C19F64E6700453C6D /* SKYGrowAndDismissAnimationController.h */,
+				910ACF3D19F64E6700453C6D /* SKYGrowAndDismissAnimationController.m */,
+				910ACF3E19F64E6700453C6D /* SKYShrinkAndPresentAnimationController.h */,
+				910ACF3F19F64E6700453C6D /* SKYShrinkAndPresentAnimationController.m */,
+				910ACF4019F64E6700453C6D /* SKYShrinkDismissAnimationController.h */,
+				910ACF4119F64E6700453C6D /* SKYShrinkDismissAnimationController.m */,
+			);
+			path = AnimationControllers;
+			sourceTree = "<group>";
+		};
+		910ACF4219F64E6700453C6D /* InteractionControllers */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF4319F64E6700453C6D /* SKYSwipeInteractionController.h */,
+				910ACF4419F64E6700453C6D /* SKYSwipeInteractionController.m */,
+			);
+			path = InteractionControllers;
+			sourceTree = "<group>";
+		};
+		910ACF4519F64E6700453C6D /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF4619F64E6700453C6D /* SKYGlobalDefines.h */,
+				910ACF4719F64E6700453C6D /* SKYMacros.h */,
+				910ACF4819F64E6700453C6D /* SKYServicesDefines.h */,
+				910ACF4919F64E6700453C6D /* SKYSingleton.h */,
+			);
+			name = Defines;
+			path = Skynet/Defines;
+			sourceTree = "<group>";
+		};
+		910ACF4A19F64E6700453C6D /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF4B19F64E6700453C6D /* FacebookSDK.framework */,
+				910ACF4C19F64E6700453C6D /* GoogleOpenSource.framework */,
+				910ACF4D19F64E6700453C6D /* GooglePlus.bundle */,
+				910ACF4E19F64E6700453C6D /* GooglePlus.framework */,
+			);
+			name = Framework;
+			path = Skynet/Framework;
+			sourceTree = "<group>";
+		};
+		910ACF4F19F64E6700453C6D /* Import */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF5019F64E6700453C6D /* AFNetworkActivityLogger */,
+				910ACF5319F64E6700453C6D /* AFNetworking */,
+				910ACF7919F64E6700453C6D /* Apple */,
+				910ACF7C19F64E6700453C6D /* MDMCoreData */,
+			);
+			name = Import;
+			path = Skynet/Import;
+			sourceTree = "<group>";
+		};
+		910ACF5019F64E6700453C6D /* AFNetworkActivityLogger */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF5119F64E6700453C6D /* AFNetworkActivityLogger.h */,
+				910ACF5219F64E6700453C6D /* AFNetworkActivityLogger.m */,
+			);
+			path = AFNetworkActivityLogger;
+			sourceTree = "<group>";
+		};
+		910ACF5319F64E6700453C6D /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF5419F64E6700453C6D /* AFHTTPRequestOperation.h */,
+				910ACF5519F64E6700453C6D /* AFHTTPRequestOperation.m */,
+				910ACF5619F64E6700453C6D /* AFHTTPRequestOperationManager.h */,
+				910ACF5719F64E6700453C6D /* AFHTTPRequestOperationManager.m */,
+				910ACF5819F64E6700453C6D /* AFHTTPSessionManager.h */,
+				910ACF5919F64E6700453C6D /* AFHTTPSessionManager.m */,
+				910ACF5A19F64E6700453C6D /* AFNetworking.h */,
+				910ACF5B19F64E6700453C6D /* AFNetworkReachabilityManager.h */,
+				910ACF5C19F64E6700453C6D /* AFNetworkReachabilityManager.m */,
+				910ACF5D19F64E6700453C6D /* AFSecurityPolicy.h */,
+				910ACF5E19F64E6700453C6D /* AFSecurityPolicy.m */,
+				910ACF5F19F64E6700453C6D /* AFURLConnectionOperation.h */,
+				910ACF6019F64E6700453C6D /* AFURLConnectionOperation.m */,
+				910ACF6119F64E6700453C6D /* AFURLRequestSerialization.h */,
+				910ACF6219F64E6700453C6D /* AFURLRequestSerialization.m */,
+				910ACF6319F64E6700453C6D /* AFURLResponseSerialization.h */,
+				910ACF6419F64E6700453C6D /* AFURLResponseSerialization.m */,
+				910ACF6519F64E6700453C6D /* AFURLSessionManager.h */,
+				910ACF6619F64E6700453C6D /* AFURLSessionManager.m */,
+				910ACF6719F64E6700453C6D /* UIKit+AFNetworking */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		910ACF6719F64E6700453C6D /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF6819F64E6700453C6D /* AFNetworkActivityIndicatorManager.h */,
+				910ACF6919F64E6700453C6D /* AFNetworkActivityIndicatorManager.m */,
+				910ACF6A19F64E6700453C6D /* UIActivityIndicatorView+AFNetworking.h */,
+				910ACF6B19F64E6700453C6D /* UIActivityIndicatorView+AFNetworking.m */,
+				910ACF6C19F64E6700453C6D /* UIAlertView+AFNetworking.h */,
+				910ACF6D19F64E6700453C6D /* UIAlertView+AFNetworking.m */,
+				910ACF6E19F64E6700453C6D /* UIButton+AFNetworking.h */,
+				910ACF6F19F64E6700453C6D /* UIButton+AFNetworking.m */,
+				910ACF7019F64E6700453C6D /* UIImageView+AFNetworking.h */,
+				910ACF7119F64E6700453C6D /* UIImageView+AFNetworking.m */,
+				910ACF7219F64E6700453C6D /* UIKit+AFNetworking.h */,
+				910ACF7319F64E6700453C6D /* UIProgressView+AFNetworking.h */,
+				910ACF7419F64E6700453C6D /* UIProgressView+AFNetworking.m */,
+				910ACF7519F64E6700453C6D /* UIRefreshControl+AFNetworking.h */,
+				910ACF7619F64E6700453C6D /* UIRefreshControl+AFNetworking.m */,
+				910ACF7719F64E6700453C6D /* UIWebView+AFNetworking.h */,
+				910ACF7819F64E6700453C6D /* UIWebView+AFNetworking.m */,
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		910ACF7919F64E6700453C6D /* Apple */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF7A19F64E6700453C6D /* UIImage+ImageEffects.h */,
+				910ACF7B19F64E6700453C6D /* UIImage+ImageEffects.m */,
+			);
+			path = Apple;
+			sourceTree = "<group>";
+		};
+		910ACF7C19F64E6700453C6D /* MDMCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF7D19F64E6700453C6D /* MDMCoreData.h */,
+				910ACF7E19F64E6700453C6D /* MDMCoreDataCore */,
+				910ACF8219F64E6700453C6D /* MDMFetchedResultsCollectionDataSource */,
+				910ACF8519F64E6700453C6D /* MDMFetchedResultsTableDataSource */,
+				910ACF8819F64E6700453C6D /* MDMPersistenceController */,
+				910ACF8B19F64E6700453C6D /* NSManagedObject+MDMCoreDataAdditions */,
+			);
+			path = MDMCoreData;
+			sourceTree = "<group>";
+		};
+		910ACF7E19F64E6700453C6D /* MDMCoreDataCore */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF7F19F64E6700453C6D /* MDMCoreDataMacros.h */,
+				910ACF8019F64E6700453C6D /* MDMFetchedResultsDataSource.h */,
+				910ACF8119F64E6700453C6D /* MDMFetchedResultsDataSource.m */,
+			);
+			path = MDMCoreDataCore;
+			sourceTree = "<group>";
+		};
+		910ACF8219F64E6700453C6D /* MDMFetchedResultsCollectionDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF8319F64E6700453C6D /* MDMFetchedResultsCollectionDataSource.h */,
+				910ACF8419F64E6700453C6D /* MDMFetchedResultsCollectionDataSource.m */,
+			);
+			path = MDMFetchedResultsCollectionDataSource;
+			sourceTree = "<group>";
+		};
+		910ACF8519F64E6700453C6D /* MDMFetchedResultsTableDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF8619F64E6700453C6D /* MDMFetchedResultsTableDataSource.h */,
+				910ACF8719F64E6700453C6D /* MDMFetchedResultsTableDataSource.m */,
+			);
+			path = MDMFetchedResultsTableDataSource;
+			sourceTree = "<group>";
+		};
+		910ACF8819F64E6700453C6D /* MDMPersistenceController */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF8919F64E6700453C6D /* MDMPersistenceController.h */,
+				910ACF8A19F64E6700453C6D /* MDMPersistenceController.m */,
+			);
+			path = MDMPersistenceController;
+			sourceTree = "<group>";
+		};
+		910ACF8B19F64E6700453C6D /* NSManagedObject+MDMCoreDataAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF8C19F64E6700453C6D /* NSManagedObject+MDMCoreDataAdditions.h */,
+				910ACF8D19F64E6700453C6D /* NSManagedObject+MDMCoreDataAdditions.m */,
+			);
+			path = "NSManagedObject+MDMCoreDataAdditions";
+			sourceTree = "<group>";
+		};
+		910ACF8E19F64E6700453C6D /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF8F19F64E6700453C6D /* NSManagedObject+SKYGenericObject.h */,
+				910ACF9019F64E6700453C6D /* NSManagedObject+SKYGenericObject.m */,
+				910ACF9119F64E6700453C6D /* SKYPersistenceManager.h */,
+				910ACF9219F64E6700453C6D /* SKYPersistenceManager.m */,
+			);
+			name = Persistence;
+			path = Skynet/Persistence;
+			sourceTree = "<group>";
+		};
+		910ACF9319F64E6700453C6D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF9419F64E6700453C6D /* SKYAPIClient.h */,
+				910ACF9519F64E6700453C6D /* SKYAPIClient.m */,
+				910ACF9619F64E6700453C6D /* SKYGenericService.h */,
+				910ACF9719F64E6700453C6D /* SKYGenericService.m */,
+			);
+			name = Services;
+			path = Skynet/Services;
+			sourceTree = "<group>";
+		};
+		910ACF9819F64E6700453C6D /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF9919F64E6700453C6D /* SKYFacebookManager.h */,
+				910ACF9A19F64E6700453C6D /* SKYFacebookManager.m */,
+				910ACF9B19F64E6700453C6D /* SKYGooglePlusManager.h */,
+				910ACF9C19F64E6700453C6D /* SKYGooglePlusManager.m */,
+			);
+			name = Social;
+			path = Skynet/Social;
+			sourceTree = "<group>";
+		};
+		910ACF9D19F64E6700453C6D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				910ACF9E19F64E6700453C6D /* NSDate+SKYAdditions.h */,
+				910ACF9F19F64E6700453C6D /* NSDate+SKYAdditions.m */,
+				910ACFA019F64E6700453C6D /* NSDictionary+SKYAdditions.h */,
+				910ACFA119F64E6700453C6D /* NSDictionary+SKYAdditions.m */,
+				910ACFA219F64E6700453C6D /* NSString+SKYAdditions.h */,
+				910ACFA319F64E6700453C6D /* NSString+SKYAdditions.m */,
+				910ACFA419F64E6700453C6D /* SKYErrorHandler.h */,
+				910ACFA519F64E6700453C6D /* SKYErrorHandler.m */,
+				910ACFA619F64E6700453C6D /* SKYFadeSegue.h */,
+				910ACFA719F64E6700453C6D /* SKYFadeSegue.m */,
+				910ACFA819F64E6700453C6D /* SKYFileManager.h */,
+				910ACFA919F64E6700453C6D /* SKYFileManager.m */,
+				910ACFAA19F64E6700453C6D /* SKYLocationManager.h */,
+				910ACFAB19F64E6700453C6D /* SKYLocationManager.m */,
+				910ACFAC19F64E6700453C6D /* SKYMaths.h */,
+				910ACFAD19F64E6700453C6D /* SKYMaths.m */,
+				910ACFAE19F64E6700453C6D /* SKYTabBarController.h */,
+				910ACFAF19F64E6700453C6D /* SKYTabBarController.m */,
+				910ACFB019F64E6700453C6D /* SKYTabBarSegue.h */,
+				910ACFB119F64E6700453C6D /* SKYTabBarSegue.m */,
+				910ACFB219F64E6700453C6D /* SKYViewController.h */,
+				910ACFB319F64E6700453C6D /* SKYViewController.m */,
+				910ACFB419F64E6700453C6D /* UIButton+SKYAdditions.h */,
+				910ACFB519F64E6700453C6D /* UIButton+SKYAdditions.m */,
+				910ACFB619F64E6700453C6D /* UIImageView+SKYAdditions.h */,
+				910ACFB719F64E6700453C6D /* UIImageView+SKYAdditions.m */,
+				910ACFB819F64E6700453C6D /* UIView+SKYAdditions.h */,
+				910ACFB919F64E6700453C6D /* UIView+SKYAdditions.m */,
+			);
+			name = Utils;
+			path = Skynet/Utils;
+			sourceTree = "<group>";
+		};
+		910ACFFB19F660BC00453C6D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				91D32A971A1E45F800E2285A /* AppDelegate+AddOn.h */,
+				91D32A981A1E45F800E2285A /* AppDelegate+AddOn.m */,
+				91DC39F019FF026C00DD03FC /* BIMBottomButton.h */,
+				91DC39F119FF026C00DD03FC /* BIMBottomButton.m */,
+				91DC39F319FF03DB00DD03FC /* BIMNavigationBar.h */,
+				91DC39F419FF03DB00DD03FC /* BIMNavigationBar.m */,
+				910ACFFC19F660CD00453C6D /* BIMSliderNavBar.h */,
+				910ACFFD19F660CD00453C6D /* BIMSliderNavBar.m */,
+				91EA024519F8DEAD004D8D12 /* UIFont+AddOn.h */,
+				91EA024619F8DEAD004D8D12 /* UIFont+AddOn.m */,
+				91EA024819F8E050004D8D12 /* UIColor+AddOn.h */,
+				91EA024919F8E050004D8D12 /* UIColor+AddOn.m */,
+				913035611A027B01008E14FA /* UIButton+AddOn.h */,
+				913035621A027B01008E14FA /* UIButton+AddOn.m */,
+				919E973C1A2374E000E494CB /* NSObject+Device.h */,
+				919E973D1A2374E000E494CB /* NSObject+Device.m */,
+				910AF1301A27A3A40086200D /* NSURL+AddOn.h */,
+				910AF1311A27A3A40086200D /* NSURL+AddOn.m */,
+				91DC3A2A1A00CF0A00DD03FC /* Loading */,
+				91DC3A291A00CEFC00DD03FC /* Search */,
+				913035521A023F66008E14FA /* Image&View */,
+				913035511A023F50008E14FA /* Transitions between controllers */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		910AF1251A2798040086200D /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				910AF1271A2798040086200D /* NSDate+Utilities.h */,
+				910AF1281A2798040086200D /* NSDate+Utilities.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		913035411A01C490008E14FA /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				9130353E1A01C489008E14FA /* BIMPlacesViewController.h */,
+				9130353F1A01C489008E14FA /* BIMPlacesViewController.m */,
+				91A750FD1A08F6D400017736 /* MKMapView */,
+				9130355C1A025921008E14FA /* BIMPlaceTableViewCell.h */,
+				9130355D1A025921008E14FA /* BIMPlaceTableViewCell.m */,
+				9130355F1A025C80008E14FA /* BIMPlaceTableViewCell.xib */,
+			);
+			name = Places;
+			sourceTree = "<group>";
+		};
+		913035511A023F50008E14FA /* Transitions between controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9130354E1A023F1A008E14FA /* BIMNavigationControllerDelegate.h */,
+				9130354F1A023F1A008E14FA /* BIMNavigationControllerDelegate.m */,
+				91F362BD1A0A1024006D35D7 /* Push animator */,
+				91F362BE1A0A102A006D35D7 /* Pop animator */,
+			);
+			name = "Transitions between controllers";
+			sourceTree = "<group>";
+		};
+		913035521A023F66008E14FA /* Image&View */ = {
+			isa = PBXGroup;
+			children = (
+				913035421A021D3B008E14FA /* UIImage+AddOn.h */,
+				913035431A021D3B008E14FA /* UIImage+AddOn.m */,
+				913035481A0229ED008E14FA /* UIView+AddOn.h */,
+				913035491A0229ED008E14FA /* UIView+AddOn.m */,
+				913035451A02211E008E14FA /* BIMTintedImageView.h */,
+				913035461A02211E008E14FA /* BIMTintedImageView.m */,
+			);
+			name = "Image&View";
+			sourceTree = "<group>";
+		};
+		9130356A1A038402008E14FA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9130356B1A038414008E14FA /* BIMSettingsViewController.h */,
+				9130356C1A038414008E14FA /* BIMSettingsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		915D1B4B1A01113500B6F14E /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				915D1B4C1A01114400B6F14E /* NSError+AddOn.h */,
+				915D1B4D1A01114400B6F14E /* NSError+AddOn.m */,
+			);
+			name = Errors;
+			sourceTree = "<group>";
+		};
+		91794CB91A30703C0096635D /* UIDevice-Hardware */ = {
+			isa = PBXGroup;
+			children = (
+				91794CBB1A30703C0096635D /* UIDevice+Hardware.h */,
+				91794CBC1A30703C0096635D /* UIDevice+Hardware.m */,
+			);
+			path = "UIDevice-Hardware";
+			sourceTree = "<group>";
+		};
+		91794CBF1A30CA3D0096635D /* MHFBImageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				91794CC01A30CA3D0096635D /* MHFacebookImageViewer.h */,
+				91794CC11A30CA3D0096635D /* MHFacebookImageViewer.m */,
+			);
+			path = MHFBImageViewController;
+			sourceTree = "<group>";
+		};
+		91A750FD1A08F6D400017736 /* MKMapView */ = {
+			isa = PBXGroup;
+			children = (
+				919CAC2D1A07A42C00DC14AB /* MKMapView+RAC.h */,
+				919CAC2E1A07A42C00DC14AB /* MKMapView+RAC.m */,
+				91A750FE1A08F79500017736 /* MKMapView+AddOn.h */,
+				91A750FF1A08F79500017736 /* MKMapView+AddOn.m */,
+				919CAC2A1A079D0600DC14AB /* BIMMapView.h */,
+				919CAC2B1A079D0600DC14AB /* BIMMapView.m */,
+				91A751041A08F99D00017736 /* BIMCalloutView.h */,
+				91A751051A08F99D00017736 /* BIMCalloutView.m */,
+				91A750F51A08E6D900017736 /* BIMAnnotationView.h */,
+				91A750F61A08E6D900017736 /* BIMAnnotationView.m */,
+			);
+			name = MKMapView;
+			sourceTree = "<group>";
+		};
+		91ADCB6C19F71101008575AE /* Connexion */ = {
+			isa = PBXGroup;
+			children = (
+				91ADCB6D19F71113008575AE /* BIMLoginViewController.h */,
+				91ADCB6E19F71113008575AE /* BIMLoginViewController.m */,
+				91CE04B019FB00C60077E4FA /* BIMSplashAnimatedView.h */,
+				91CE04B119FB00C60077E4FA /* BIMSplashAnimatedView.m */,
+			);
+			name = Connexion;
+			sourceTree = "<group>";
+		};
+		91ADCB7019F71131008575AE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				91ADCB7119F7113F008575AE /* BIMAPIClient.h */,
+				91ADCB7219F7113F008575AE /* BIMAPIClient.m */,
+				919E97391A23584F00E494CB /* BIMAPIClient+User.h */,
+				919E973A1A23584F00E494CB /* BIMAPIClient+User.m */,
+				91DC3A2B1A00F1B200DD03FC /* BIMAPIClient+Friends.h */,
+				91DC3A2C1A00F1B200DD03FC /* BIMAPIClient+Friends.m */,
+				919E97361A2348B100E494CB /* BIMAPIClient+Places.h */,
+				919E97371A2348B100E494CB /* BIMAPIClient+Places.m */,
+				91DC3A311A00FA3900DD03FC /* RACSignal+BIMClientAdditions.h */,
+				91DC3A321A00FA3900DD03FC /* RACSignal+BIMClientAdditions.m */,
+				915D1B4B1A01113500B6F14E /* Errors */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		91DC39EF19FF024C00DD03FC /* UIButtons */ = {
+			isa = PBXGroup;
+			children = (
+				917116A319FE8C01007349B3 /* BIMCategoryButton.h */,
+				917116A419FE8C01007349B3 /* BIMCategoryButton.m */,
+				917116A619FE8CC1007349B3 /* BIMEuroButton.h */,
+				917116A719FE8CC1007349B3 /* BIMEuroButton.m */,
+			);
+			name = UIButtons;
+			sourceTree = "<group>";
+		};
+		91DC3A291A00CEFC00DD03FC /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				91DC39F619FF070C00DD03FC /* BIMSearchBar.h */,
+				91DC39F719FF070C00DD03FC /* BIMSearchBar.m */,
+				91DC3A0719FFA0BE00DD03FC /* UISearchDisplayController+RAC.h */,
+				91DC3A0819FFA0BE00DD03FC /* UISearchDisplayController+RAC.m */,
+				91DC3A1219FFF10A00DD03FC /* UISearchBar+RAC.h */,
+				91DC3A1319FFF10A00DD03FC /* UISearchBar+RAC.m */,
+				91DC3A261A00CEF800DD03FC /* BIMSearchDisplayController.h */,
+				91DC3A271A00CEF800DD03FC /* BIMSearchDisplayController.m */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		91DC3A2A1A00CF0A00DD03FC /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				91DC3A201A005C7300DD03FC /* BIMBottomButtonWithLoader.h */,
+				91DC3A211A005C7300DD03FC /* BIMBottomButtonWithLoader.m */,
+				918A5C0619FA5B8D0008229A /* BIMButtonWithLoader.h */,
+				918A5C0719FA5B8D0008229A /* BIMButtonWithLoader.m */,
+				919B364B19F9A5810061AE59 /* BIMLoader.h */,
+				919B364C19F9A5810061AE59 /* BIMLoader.m */,
+				918A5C0419FA5B8D0008229A /* BIMActivityView.h */,
+				918A5C0519FA5B8D0008229A /* BIMActivityView.m */,
+			);
+			name = Loading;
+			sourceTree = "<group>";
+		};
+		91EA024419F8DE73004D8D12 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				91EA023E19F8DE66004D8D12 /* Avenir Next Condensed.ttc */,
+				91EA023F19F8DE66004D8D12 /* Avenir Next.ttc */,
+				91EA024019F8DE66004D8D12 /* Avenir.ttc */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		91EA025619F91216004D8D12 /* InfluencerScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				91EA025319F90ECF004D8D12 /* BIMInfluencerScrollView.h */,
+				91EA025419F90ECF004D8D12 /* BIMInfluencerScrollView.m */,
+				91EA025719F923E4004D8D12 /* BIMInfluencerButton.h */,
+				91EA025819F923E4004D8D12 /* BIMInfluencerButton.m */,
+			);
+			name = InfluencerScrollView;
+			sourceTree = "<group>";
+		};
+		91EA025A19F935AF004D8D12 /* Informations */ = {
+			isa = PBXGroup;
+			children = (
+				91EA025B19F935BE004D8D12 /* BIMPlaceInformations.h */,
+				91EA025C19F935BE004D8D12 /* BIMPlaceInformations.m */,
+				91EA025E19F935CD004D8D12 /* BIMPlaceInformations.xib */,
+				910AF1221A27710C0086200D /* BIMLabelWalkingDead.h */,
+				910AF1231A27710C0086200D /* BIMLabelWalkingDead.m */,
+				91F362C51A0A1FB1006D35D7 /* BIMTagsPlaceView.h */,
+				91F362C61A0A1FB1006D35D7 /* BIMTagsPlaceView.m */,
+				91F362C81A0A1FBC006D35D7 /* BIMSchedulePlaceView.h */,
+				91F362C91A0A1FBC006D35D7 /* BIMSchedulePlaceView.m */,
+				91B016A41A17ABE600AC92C0 /* BIMHoursView.h */,
+				91B016A51A17ABE600AC92C0 /* BIMHoursView.m */,
+			);
+			name = Informations;
+			sourceTree = "<group>";
+		};
+		91EA026019F94DFB004D8D12 /* Place */ = {
+			isa = PBXGroup;
+			children = (
+				91EA026119F94E0E004D8D12 /* BIMDetailsPlaceViewController.h */,
+				91EA026219F94E0E004D8D12 /* BIMDetailsPlaceViewController.m */,
+				91F97F3A1A269A36002224C7 /* UIActionSheet+AddOn.h */,
+				91F97F3B1A269A36002224C7 /* UIActionSheet+AddOn.m */,
+				91F362CB1A0A5DB0006D35D7 /* BIMButtonWithCenteredTitle.h */,
+				91F362CC1A0A5DB0006D35D7 /* BIMButtonWithCenteredTitle.m */,
+			);
+			name = Place;
+			sourceTree = "<group>";
+		};
+		91F362BD1A0A1024006D35D7 /* Push animator */ = {
+			isa = PBXGroup;
+			children = (
+				913035531A023F83008E14FA /* BIMAnimatorPush.h */,
+				913035541A023F83008E14FA /* BIMAnimatorPush.m */,
+				91F362BF1A0A1039006D35D7 /* BIMAnimatorDetailsPush.h */,
+				91F362C01A0A1039006D35D7 /* BIMAnimatorDetailsPush.m */,
+				91B016FD1A1B327000AC92C0 /* BIMAnimatorPlacesPush.h */,
+				91B016FE1A1B327000AC92C0 /* BIMAnimatorPlacesPush.m */,
+			);
+			name = "Push animator";
+			sourceTree = "<group>";
+		};
+		91F362BE1A0A102A006D35D7 /* Pop animator */ = {
+			isa = PBXGroup;
+			children = (
+				913035561A023F8E008E14FA /* BIMAnimatorPop.h */,
+				913035571A023F8E008E14FA /* BIMAnimatorPop.m */,
+				91F362C21A0A1040006D35D7 /* BIMAnimatorDetailsPop.h */,
+				91F362C31A0A1040006D35D7 /* BIMAnimatorDetailsPop.m */,
+			);
+			name = "Pop animator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		910ACEE519F6490400453C6D /* Bim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 910ACF0919F6490400453C6D /* Build configuration list for PBXNativeTarget "Bim" */;
+			buildPhases = (
+				D80078AEBBA3864D72CA3391 /* Check Pods Manifest.lock */,
+				910ACEE219F6490400453C6D /* Sources */,
+				910ACEE319F6490400453C6D /* Frameworks */,
+				910ACEE419F6490400453C6D /* Resources */,
+				D58093F238A97953C9C77257 /* Copy Pods Resources */,
+				91EA024B19F8FBAE004D8D12 /* Crashlytics */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bim;
+			productName = BIM;
+			productReference = 910ACEE619F6490400453C6D /* Bim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		910ACEDE19F6490400453C6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = OMTS;
+				TargetAttributes = {
+					910ACEE519F6490400453C6D = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = H4R2PBEWMJ;
+					};
+				};
+			};
+			buildConfigurationList = 910ACEE119F6490400453C6D /* Build configuration list for PBXProject "Bim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+				Base,
+			);
+			mainGroup = 910ACEDD19F6490400453C6D;
+			productRefGroup = 910ACEE719F6490400453C6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				910ACEE519F6490400453C6D /* Bim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		910ACEE419F6490400453C6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EA024319F8DE6E004D8D12 /* Avenir Next.ttc in Resources */,
+				91DC3A0019FF793000DD03FC /* BIMGooglePlaceTableViewCell.xib in Resources */,
+				9130353D1A014B4A008E14FA /* BIMFriendTableViewCell.xib in Resources */,
+				91F97F391A268E59002224C7 /* Main.storyboard in Resources */,
+				91F97F321A268DEA002224C7 /* Localizable.strings in Resources */,
+				910ACFC519F64E6800453C6D /* GooglePlus.bundle in Resources */,
+				91EA025F19F935CD004D8D12 /* BIMPlaceInformations.xib in Resources */,
+				91EA024219F8DE6C004D8D12 /* Avenir Next Condensed.ttc in Resources */,
+				91A750F41A08E63100017736 /* omts.gpx in Resources */,
+				910ACEF719F6490400453C6D /* Images.xcassets in Resources */,
+				913035601A025C80008E14FA /* BIMPlaceTableViewCell.xib in Resources */,
+				91EA024119F8DE69004D8D12 /* Avenir.ttc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91EA024B19F8FBAE004D8D12 /* Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Crashlytics;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 8361bdff39a72cc24a02992d212bfe7322d509eb b704f65cf55ac342630cc713c267c20aba9b0c9ebb377aa909d196a1831d78f3";
+			showEnvVarsInLog = 0;
+		};
+		D58093F238A97953C9C77257 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D80078AEBBA3864D72CA3391 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		910ACEE219F6490400453C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910ACFDC19F64E6800453C6D /* MDMFetchedResultsTableDataSource.m in Sources */,
+				913035501A023F1A008E14FA /* BIMNavigationControllerDelegate.m in Sources */,
+				91EA025519F90ECF004D8D12 /* BIMInfluencerScrollView.m in Sources */,
+				913B28BA19F6ECA600268160 /* BIMHomeSliderItem.m in Sources */,
+				910ACFD019F64E6800453C6D /* AFURLSessionManager.m in Sources */,
+				91EA024719F8DEAD004D8D12 /* UIFont+AddOn.m in Sources */,
+				91F362C11A0A1039006D35D7 /* BIMAnimatorDetailsPush.m in Sources */,
+				910ACFD519F64E6800453C6D /* UIImageView+AFNetworking.m in Sources */,
+				91DC3A2D1A00F1B200DD03FC /* BIMAPIClient+Friends.m in Sources */,
+				919E973B1A23584F00E494CB /* BIMAPIClient+User.m in Sources */,
+				91F362C41A0A1040006D35D7 /* BIMAnimatorDetailsPop.m in Sources */,
+				910ACFD719F64E6800453C6D /* UIRefreshControl+AFNetworking.m in Sources */,
+				910ACFE219F64E6800453C6D /* SKYGenericService.m in Sources */,
+				910ACFCD19F64E6800453C6D /* AFURLConnectionOperation.m in Sources */,
+				91B016AC1A17B55C00AC92C0 /* BIMOpen.m in Sources */,
+				91ADCB8319F7BA53008575AE /* BIMPlace.m in Sources */,
+				910AF1321A27A3A40086200D /* NSURL+AddOn.m in Sources */,
+				915D1B4E1A01114400B6F14E /* NSError+AddOn.m in Sources */,
+				910ACFBE19F64E6700453C6D /* SKYFlipAnimationController.m in Sources */,
+				910ACFD819F64E6800453C6D /* UIWebView+AFNetworking.m in Sources */,
+				910ACFCA19F64E6800453C6D /* AFHTTPSessionManager.m in Sources */,
+				910ACFED19F64E6800453C6D /* SKYTabBarController.m in Sources */,
+				910ACFCB19F64E6800453C6D /* AFNetworkReachabilityManager.m in Sources */,
+				910ACFDA19F64E6800453C6D /* MDMFetchedResultsDataSource.m in Sources */,
+				91DC3A301A00F7A800DD03FC /* BIMObject.m in Sources */,
+				91F362CA1A0A1FBC006D35D7 /* BIMSchedulePlaceView.m in Sources */,
+				91EA026319F94E0E004D8D12 /* BIMDetailsPlaceViewController.m in Sources */,
+				913035401A01C489008E14FA /* BIMPlacesViewController.m in Sources */,
+				910ACFEF19F64E6800453C6D /* SKYViewController.m in Sources */,
+				910ACFC719F64E6800453C6D /* AFNetworkActivityLogger.m in Sources */,
+				913B28BD19F6ECBA00268160 /* BIMFriendsSliderItem.m in Sources */,
+				910ACEEF19F6490400453C6D /* BIMAppDelegate.m in Sources */,
+				91DC3A221A005C7300DD03FC /* BIMBottomButtonWithLoader.m in Sources */,
+				91DC39F519FF03DB00DD03FC /* BIMNavigationBar.m in Sources */,
+				91F362CD1A0A5DB0006D35D7 /* BIMButtonWithCenteredTitle.m in Sources */,
+				91F97F3C1A269A36002224C7 /* UIActionSheet+AddOn.m in Sources */,
+				910ACFEB19F64E6800453C6D /* SKYLocationManager.m in Sources */,
+				910ACF2319F64AB500453C6D /* BIMHomeViewController.m in Sources */,
+				910ACFE019F64E6800453C6D /* SKYPersistenceManager.m in Sources */,
+				919B364D19F9A5810061AE59 /* BIMLoader.m in Sources */,
+				9130356D1A038414008E14FA /* BIMSettingsViewController.m in Sources */,
+				910ACFF219F64E6800453C6D /* UIView+SKYAdditions.m in Sources */,
+				910ACFE819F64E6800453C6D /* SKYErrorHandler.m in Sources */,
+				91DC39FE19FF769600DD03FC /* BIMGooglePlace.m in Sources */,
+				919E973E1A2374E000E494CB /* NSObject+Device.m in Sources */,
+				91794CBE1A30703C0096635D /* UIDevice+Hardware.m in Sources */,
+				910ACFF119F64E6800453C6D /* UIImageView+SKYAdditions.m in Sources */,
+				910ACFCC19F64E6800453C6D /* AFSecurityPolicy.m in Sources */,
+				91A750EF1A084A4200017736 /* BIMHomeItem.m in Sources */,
+				910ACFD619F64E6800453C6D /* UIProgressView+AFNetworking.m in Sources */,
+				918A5C0919FA5B8D0008229A /* BIMButtonWithLoader.m in Sources */,
+				913035581A023F8E008E14FA /* BIMAnimatorPop.m in Sources */,
+				910ACFEC19F64E6800453C6D /* SKYMaths.m in Sources */,
+				917116A519FE8C01007349B3 /* BIMCategoryButton.m in Sources */,
+				913B28B719F6EC9900268160 /* BIMCategoriesSliderItem.m in Sources */,
+				913035691A036CE7008E14FA /* BIMFriendsItem.m in Sources */,
+				91ADCB8019F7BA48008575AE /* BIMUser.m in Sources */,
+				910ACFDE19F64E6800453C6D /* NSManagedObject+MDMCoreDataAdditions.m in Sources */,
+				917116A219FE83A7007349B3 /* BIMSliderItem.m in Sources */,
+				91B016A61A17ABE600AC92C0 /* BIMHoursView.m in Sources */,
+				910ACF2919F64C5100453C6D /* BIMCategoriesViewController.m in Sources */,
+				910ACFE119F64E6800453C6D /* SKYAPIClient.m in Sources */,
+				910ACFD419F64E6800453C6D /* UIButton+AFNetworking.m in Sources */,
+				91DC3A331A00FA3900DD03FC /* RACSignal+BIMClientAdditions.m in Sources */,
+				91B016FF1A1B327000AC92C0 /* BIMAnimatorPlacesPush.m in Sources */,
+				91DC39EE19FF024600DD03FC /* BIMSearchLocationViewController.m in Sources */,
+				9182F70719F8412B00640C8D /* BIMChoosePlaceView.m in Sources */,
+				91D32A991A1E45F800E2285A /* AppDelegate+AddOn.m in Sources */,
+				919E97411A2479D500E494CB /* BIMCategory.m in Sources */,
+				919CAC2F1A07A42C00DC14AB /* MKMapView+RAC.m in Sources */,
+				910ACFF019F64E6800453C6D /* UIButton+SKYAdditions.m in Sources */,
+				910ACFD919F64E6800453C6D /* UIImage+ImageEffects.m in Sources */,
+				91EA024A19F8E050004D8D12 /* UIColor+AddOn.m in Sources */,
+				91DC3A361A00FAAB00DD03FC /* BIMResponse.m in Sources */,
+				919CAC2C1A079D0600DC14AB /* BIMMapView.m in Sources */,
+				910ACFE319F64E6800453C6D /* SKYFacebookManager.m in Sources */,
+				91CE04B219FB00C60077E4FA /* BIMSplashAnimatedView.m in Sources */,
+				91DC3A0919FFA0BE00DD03FC /* UISearchDisplayController+RAC.m in Sources */,
+				915D1B4A1A0101CA00B6F14E /* BIMRequest.m in Sources */,
+				910ACFC019F64E6700453C6D /* SKYShrinkAndPresentAnimationController.m in Sources */,
+				910ACF3019F64D7500453C6D /* BIMMainContainerViewController.m in Sources */,
+				91F362C71A0A1FB1006D35D7 /* BIMTagsPlaceView.m in Sources */,
+				910ACFDB19F64E6800453C6D /* MDMFetchedResultsCollectionDataSource.m in Sources */,
+				919E97381A2348B100E494CB /* BIMAPIClient+Places.m in Sources */,
+				91A751001A08F79500017736 /* MKMapView+AddOn.m in Sources */,
+				913035551A023F83008E14FA /* BIMAnimatorPush.m in Sources */,
+				910AF1241A27710C0086200D /* BIMLabelWalkingDead.m in Sources */,
+				910ACFEA19F64E6800453C6D /* SKYFileManager.m in Sources */,
+				910ACFE719F64E6800453C6D /* NSString+SKYAdditions.m in Sources */,
+				91A751061A08F99D00017736 /* BIMCalloutView.m in Sources */,
+				910ACFC919F64E6800453C6D /* AFHTTPRequestOperationManager.m in Sources */,
+				910ACF2C19F64C5D00453C6D /* BIMFriendsViewController.m in Sources */,
+				9182F70D19F8561E00640C8D /* BIMScheduleView.m in Sources */,
+				91ADCB6F19F71113008575AE /* BIMLoginViewController.m in Sources */,
+				910ACFBD19F64E6700453C6D /* SKYBouncePresentAnimationController.m in Sources */,
+				913035661A02FCEA008E14FA /* BIMCategoriesItem.m in Sources */,
+				91DC3A281A00CEF800DD03FC /* BIMSearchDisplayController.m in Sources */,
+				910ACFD319F64E6800453C6D /* UIAlertView+AFNetworking.m in Sources */,
+				91DC39F819FF070C00DD03FC /* BIMSearchBar.m in Sources */,
+				9130354A1A0229ED008E14FA /* UIView+AddOn.m in Sources */,
+				913035441A021D3B008E14FA /* UIImage+AddOn.m in Sources */,
+				918A5C0819FA5B8D0008229A /* BIMActivityView.m in Sources */,
+				91794CCB1A30CA3D0096635D /* MHFacebookImageViewer.m in Sources */,
+				910ACFFE19F660CD00453C6D /* BIMSliderNavBar.m in Sources */,
+				913035631A027B01008E14FA /* UIButton+AddOn.m in Sources */,
+				910ACFE619F64E6800453C6D /* NSDictionary+SKYAdditions.m in Sources */,
+				910ACF2419F64AB500453C6D /* BIMViewController.m in Sources */,
+				9130355E1A025921008E14FA /* BIMPlaceTableViewCell.m in Sources */,
+				910ACFEE19F64E6800453C6D /* SKYTabBarSegue.m in Sources */,
+				910ACFC219F64E6700453C6D /* SKYSwipeInteractionController.m in Sources */,
+				91A750F71A08E6D900017736 /* BIMAnnotationView.m in Sources */,
+				910ACFBF19F64E6700453C6D /* SKYGrowAndDismissAnimationController.m in Sources */,
+				910ACFC119F64E6700453C6D /* SKYShrinkDismissAnimationController.m in Sources */,
+				910ACFE919F64E6800453C6D /* SKYFadeSegue.m in Sources */,
+				913035471A02211E008E14FA /* BIMTintedImageView.m in Sources */,
+				91A750F21A08DA1A00017736 /* BIMAnnotation.m in Sources */,
+				910ACFE419F64E6800453C6D /* SKYGooglePlusManager.m in Sources */,
+				91ADCB7319F7113F008575AE /* BIMAPIClient.m in Sources */,
+				910ACFDF19F64E6800453C6D /* NSManagedObject+SKYGenericObject.m in Sources */,
+				91B016A91A17ADC600AC92C0 /* BIMHours.m in Sources */,
+				910ACFE519F64E6800453C6D /* NSDate+SKYAdditions.m in Sources */,
+				91EA025D19F935BE004D8D12 /* BIMPlaceInformations.m in Sources */,
+				910ACFCE19F64E6800453C6D /* AFURLRequestSerialization.m in Sources */,
+				910ACFDD19F64E6800453C6D /* MDMPersistenceController.m in Sources */,
+				910ACFD119F64E6800453C6D /* AFNetworkActivityIndicatorManager.m in Sources */,
+				91DC39F219FF026C00DD03FC /* BIMBottomButton.m in Sources */,
+				91EA025919F923E4004D8D12 /* BIMInfluencerButton.m in Sources */,
+				91DC3A1419FFF10A00DD03FC /* UISearchBar+RAC.m in Sources */,
+				917116A819FE8CC1007349B3 /* BIMEuroButton.m in Sources */,
+				91DC39FB19FF761B00DD03FC /* BIMGooglePlaceTableViewCell.m in Sources */,
+				910ACFC819F64E6800453C6D /* AFHTTPRequestOperation.m in Sources */,
+				910ACFD219F64E6800453C6D /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				910ACFCF19F64E6800453C6D /* AFURLResponseSerialization.m in Sources */,
+				910AF12B1A2798040086200D /* NSDate+Utilities.m in Sources */,
+				91DC3A251A00C86900DD03FC /* BIMFriendTableViewCell.m in Sources */,
+				910ACEEC19F6490400453C6D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91F97F341A268DEA002224C7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91F97F351A268DF6002224C7 /* en */,
+				91F97F361A268E18002224C7 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		91F97F371A268E59002224C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91F97F381A268E59002224C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		910ACF0719F6490400453C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anne-Christelle PEROCHON (VCTSVA4278)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "31758fc5-f2c7-49b1-ac17-6fb2a8fc92ff";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		910ACF0A19F6490400453C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 957EEBBFF46D499B3F2DC5FA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Anne-Christelle PEROCHON (VCTSVA4278)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BIM/Skynet-Core/Skynet/Framework",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "Bim/Bim-Prefix.pch";
+				INFOPLIST_FILE = BIM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Bim;
+				PROVISIONING_PROFILE = "31758fc5-f2c7-49b1-ac17-6fb2a8fc92ff";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+			};
+			name = Debug;
+		};
+		910ACF0F19F6490B00453C6D /* Appstore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Anne-Christelle PEROCHON (H4R2PBEWMJ)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "16e4e518-9b6e-46f3-8160-d4e495b6a9e0";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Appstore;
+		};
+		910ACF1019F6490B00453C6D /* Appstore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CDEE74922F6AA695271B62F /* Pods.appstore.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Anne-Christelle PEROCHON (H4R2PBEWMJ)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BIM/Skynet-Core/Skynet/Framework",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "Bim/Bim-Prefix.pch";
+				INFOPLIST_FILE = BIM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Bim;
+				PROVISIONING_PROFILE = "16e4e518-9b6e-46f3-8160-d4e495b6a9e0";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+			};
+			name = Appstore;
+		};
+		9CB800191A37310F00B3EEBA /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Anne-Christelle PEROCHON (H4R2PBEWMJ)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "ae36461c-f617-48f6-88df-c788d90750f9";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Adhoc;
+		};
+		9CB8001A1A37310F00B3EEBA /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CDEE74922F6AA695271B62F /* Pods.appstore.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Anne-Christelle PEROCHON (H4R2PBEWMJ)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BIM/Skynet-Core/Skynet/Framework",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "Bim/Bim-Prefix.pch";
+				INFOPLIST_FILE = BIM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Bim;
+				PROVISIONING_PROFILE = "ae36461c-f617-48f6-88df-c788d90750f9";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+			};
+			name = Adhoc;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		910ACEE119F6490400453C6D /* Build configuration list for PBXProject "Bim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910ACF0719F6490400453C6D /* Debug */,
+				910ACF0F19F6490B00453C6D /* Appstore */,
+				9CB800191A37310F00B3EEBA /* Adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		910ACF0919F6490400453C6D /* Build configuration list for PBXNativeTarget "Bim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				910ACF0A19F6490400453C6D /* Debug */,
+				910ACF1019F6490B00453C6D /* Appstore */,
+				9CB8001A1A37310F00B3EEBA /* Adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 910ACEDE19F6490400453C6D /* Project object */;
+}
